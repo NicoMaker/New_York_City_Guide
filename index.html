@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New York in 6 giorni — Guida di viaggio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="kicker">Guida pratica di viaggio</div>
+        <h1>NEW YORK<br /><span>IN SEI GIORNI</span></h1>
+        <p class="hero-sub">
+          Sei giorni, sei quartieri, sei linee della metro. Un itinerario giorno
+          per giorno per attraversare Manhattan e Brooklyn senza perdere tempo
+          tra una fermata e l'altra.
+        </p>
+      </div>
+      <div class="skyline" aria-hidden="true">
+        <svg viewBox="0 0 760 150" preserveAspectRatio="none">
+          <rect x="0" y="90" width="40" height="60" fill="#1c1c21" />
+          <rect x="42" y="70" width="30" height="80" fill="#202026" />
+          <rect x="75" y="100" width="45" height="50" fill="#1c1c21" />
+          <rect x="123" y="55" width="26" height="95" fill="#25252b" />
+          <rect x="152" y="85" width="34" height="65" fill="#1c1c21" />
+          <rect x="190" y="40" width="22" height="110" fill="#202026" />
+          <rect x="216" y="20" width="18" height="130" fill="#2a2a31" />
+          <rect x="223" y="6" width="4" height="18" fill="#2a2a31" />
+          <rect x="238" y="75" width="30" height="75" fill="#1c1c21" />
+          <rect x="272" y="95" width="40" height="55" fill="#202026" />
+          <rect x="316" y="60" width="28" height="90" fill="#1c1c21" />
+          <rect x="348" y="30" width="24" height="120" fill="#25252b" />
+          <rect x="376" y="80" width="36" height="70" fill="#1c1c21" />
+          <rect x="416" y="50" width="20" height="100" fill="#202026" />
+          <rect x="440" y="95" width="46" height="55" fill="#1c1c21" />
+          <rect x="490" y="65" width="26" height="85" fill="#25252b" />
+          <rect x="520" y="15" width="20" height="135" fill="#2a2a31" />
+          <rect x="527" y="2" width="4" height="16" fill="#2a2a31" />
+          <rect x="544" y="88" width="34" height="62" fill="#1c1c21" />
+          <rect x="582" y="55" width="24" height="95" fill="#202026" />
+          <rect x="610" y="100" width="42" height="50" fill="#1c1c21" />
+          <rect x="656" y="70" width="26" height="80" fill="#25252b" />
+          <rect x="686" y="90" width="34" height="60" fill="#1c1c21" />
+          <rect x="724" y="105" width="36" height="45" fill="#202026" />
+          <rect
+            x="60"
+            y="112"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.8"
+          />
+          <rect
+            x="130"
+            y="80"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.6"
+          />
+          <rect
+            x="200"
+            y="65"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.8"
+          />
+          <rect
+            x="356"
+            y="55"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.7"
+          />
+          <rect
+            x="498"
+            y="90"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.8"
+          />
+          <rect
+            x="592"
+            y="80"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.6"
+          />
+          <rect
+            x="664"
+            y="95"
+            width="5"
+            height="5"
+            fill="#F2B705"
+            opacity="0.7"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- LEGEND / NAV -->
+    <nav class="legend">
+      <ul class="legend-list">
+        <li>
+          <a href="#day1"
+            ><span class="dot" style="background: var(--red)"></span>Giorno 1 ·
+            Midtown</a
+          >
+        </li>
+        <li>
+          <a href="#day2"
+            ><span class="dot" style="background: var(--green)"></span>Giorno 2
+            · Downtown</a
+          >
+        </li>
+        <li>
+          <a href="#day3"
+            ><span class="dot" style="background: var(--orange)"></span>Giorno 3
+            · Central Park</a
+          >
+        </li>
+        <li>
+          <a href="#day4"
+            ><span class="dot" style="background: var(--gold)"></span>Giorno 4 ·
+            Arte</a
+          >
+        </li>
+        <li>
+          <a href="#day5"
+            ><span class="dot" style="background: var(--blue)"></span>Giorno 5 ·
+            Chelsea</a
+          >
+        </li>
+        <li>
+          <a href="#day6"
+            ><span class="dot" style="background: var(--grey)"></span>Giorno 6 ·
+            Brooklyn</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- QUICK FACTS -->
+    <div class="facts">
+      <div>
+        <div class="fact-label">Periodo migliore</div>
+        <div class="fact-value">Aprile–giugno, settembre–novembre</div>
+      </div>
+      <div>
+        <div class="fact-label">Come muoversi</div>
+        <div class="fact-value">Metro 24 ore su 24, carta OMNY</div>
+      </div>
+      <div>
+        <div class="fact-label">Passo consigliato</div>
+        <div class="fact-value">2 zone al giorno, non di più</div>
+      </div>
+    </div>
+
+    <!-- ITINERARY -->
+    <div class="itinerary">
+      <div class="route">
+        <div class="day" id="day1" style="--line-color: var(--red)">
+          <div class="badge" style="background: var(--red); color: #fff">1</div>
+          <div class="day-route">LINEA 1 · 2 · 3</div>
+          <h2>Midtown classica</h2>
+          <p class="lead">
+            Si comincia in grande, nel cuore che tutti riconoscono a colpo
+            d'occhio: grattacieli, insegne e il ritmo di Manhattan al massimo
+            volume.
+          </p>
+          <ul class="stops">
+            <li>
+              Empire State Building o Top of the Rock, meglio prenotare la
+              fascia oraria dell'alba per evitare la folla
+            </li>
+            <li>
+              Times Square, da attraversare presto la mattina prima che si
+              riempia
+            </li>
+            <li>
+              Grand Central Terminal e il soffitto dipinto con la volta celeste
+            </li>
+            <li>
+              Bryant Park e la New York Public Library, una pausa più tranquilla
+            </li>
+            <li>Sera: un musical a Broadway</li>
+          </ul>
+          <div class="tip">
+            <b>Consiglio —</b> compra i biglietti dello show con settimane
+            d'anticipo, oppure tenta la fila al chiosco TKTS di Times Square per
+            sconti last minute.
+          </div>
+        </div>
+
+        <div class="day" id="day2" style="--line-color: var(--green)">
+          <div class="badge" style="background: var(--green); color: #fff">
+            2
+          </div>
+          <div class="day-route">LINEA 4 · 5 · 6</div>
+          <h2>Downtown e la Statua della Libertà</h2>
+          <p class="lead">
+            Una giornata tra memoria e acqua: dal Financial District ai due
+            grandi simboli affacciati sull'Hudson.
+          </p>
+          <ul class="stops">
+            <li>
+              9/11 Memorial & Museum, le due vasche dove sorgevano le Torri
+              Gemelle
+            </li>
+            <li>Wall Street e il celebre Charging Bull</li>
+            <li>
+              Traghetto per Liberty Island ed Ellis Island, biglietti da
+              prenotare online in anticipo
+            </li>
+            <li>Attraversata a piedi del Ponte di Brooklyn al tramonto</li>
+            <li>Cena a DUMBO, con lo skyline di Manhattan sullo sfondo</li>
+          </ul>
+          <div class="tip">
+            <b>Consiglio —</b> lo Staten Island Ferry è gratuito e regala la
+            stessa vista sulla Statua della Libertà, senza fila per il
+            biglietto.
+          </div>
+        </div>
+
+        <div class="day" id="day3" style="--line-color: var(--orange)">
+          <div class="badge" style="background: var(--orange); color: #fff">
+            3
+          </div>
+          <div class="day-route">LINEA B · D</div>
+          <h2>Central Park e Upper West Side</h2>
+          <p class="lead">
+            Il giorno più lento del viaggio: verde, musei e un quartiere
+            residenziale dal fascino discreto.
+          </p>
+          <ul class="stops">
+            <li>American Museum of Natural History</li>
+            <li>
+              Passeggiata a Central Park: Bethesda Terrace, Bow Bridge, The Mall
+            </li>
+            <li>Strawberry Fields, il memoriale dedicato a John Lennon</li>
+            <li>
+              Lincoln Center, se c'è tempo per un caffè con vista sulla fontana
+            </li>
+          </ul>
+          <div class="tip">
+            <b>Consiglio —</b> noleggiare una bici per attraversare il parco più
+            in fretta, utile se il cielo minaccia pioggia.
+          </div>
+        </div>
+
+        <div class="day" id="day4" style="--line-color: var(--gold)">
+          <div class="badge" style="background: var(--gold); color: #141414">
+            4
+          </div>
+          <div class="day-route">LINEA N · Q · R · W</div>
+          <h2>Arte ed eleganza a Midtown</h2>
+          <p class="lead">
+            Musei, vetrine e la vista che mette d'accordo tutti: l'Empire State
+            visto da un altro grattacielo.
+          </p>
+          <ul class="stops">
+            <li>MoMA, il Museum of Modern Art</li>
+            <li>Rockefeller Center e Top of the Rock</li>
+            <li>Quinta Strada, tra flagship store e vetrine storiche</li>
+            <li>
+              St. Patrick's Cathedral, una sosta silenziosa in mezzo al traffico
+            </li>
+          </ul>
+          <div class="tip">
+            <b>Consiglio —</b> il MoMA offre ingresso gratuito il venerdì sera
+            in certe fasce orarie: verifica il calendario aggiornato prima di
+            andare.
+          </div>
+        </div>
+
+        <div class="day" id="day5" style="--line-color: var(--blue)">
+          <div class="badge" style="background: var(--blue); color: #fff">
+            5
+          </div>
+          <div class="day-route">LINEA A · C · E</div>
+          <h2>Chelsea e Greenwich Village</h2>
+          <p class="lead">
+            Il lato più creativo della città: ex fabbriche riconvertite,
+            gallerie e strade acciottolate.
+          </p>
+          <ul class="stops">
+            <li>
+              High Line, il parco sopraelevato sui binari ferroviari dismessi
+            </li>
+            <li>Chelsea Market per il pranzo</li>
+            <li>Meatpacking District e Greenwich Village</li>
+            <li>SoHo, tra cast-iron building e boutique</li>
+          </ul>
+          <div class="tip">
+            <b>Consiglio —</b> percorri la High Line da Gansevoort Street fino a
+            Hudson Yards, poi sali sul Vessel o sull'Edge per la vista
+            panoramica.
+          </div>
+        </div>
+
+        <div class="day" id="day6" style="--line-color: var(--grey)">
+          <div class="badge" style="background: var(--grey); color: #fff">
+            6
+          </div>
+          <div class="day-route">LINEA L</div>
+          <h2>Brooklyn autentica</h2>
+          <p class="lead">
+            L'ultimo giorno rallenta il ritmo, dall'altra parte del fiume, tra
+            murales e mercati.
+          </p>
+          <ul class="stops">
+            <li>
+              Williamsburg: murales, negozi vintage, vista sullo skyline da
+              Domino Park
+            </li>
+            <li>Smorgasburg, se capita di sabato, per lo street food</li>
+            <li>Un ultimo giro a DUMBO, se non ancora visitato</li>
+            <li>
+              Shopping dell'ultimo minuto o un pomeriggio senza programma prima
+              della partenza
+            </li>
+          </ul>
+          <div class="tip">
+            <b>Consiglio —</b> Williamsburg si gira bene a piedi: lascia qualche
+            ora libera per perdersi senza una meta precisa.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRACTICAL INFO -->
+    <section class="practical">
+      <div class="wrap">
+        <h2>Informazioni pratiche</h2>
+        <div class="grid-cards">
+          <div class="card">
+            <h3>Quando andare</h3>
+            <p>
+              Primavera e inizio autunno offrono temperature miti e meno umidità
+              dell'estate. Dicembre è magico ma affollato e più caro.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Dove dormire</h3>
+            <p>
+              Midtown è comoda ma cara. Brooklyn (Williamsburg, Park Slope)
+              costa meno e resta a pochi minuti di metro da Manhattan.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Metro e biglietti</h3>
+            <p>
+              La metropolitana funziona 24 ore su 24. Con la carta OMNY basta
+              avvicinare la carta contactless o lo smartphone al tornello.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Budget indicativo</h3>
+            <p>
+              Tra alloggio, pasti, trasporti e un paio di ingressi a pagamento
+              al giorno, conviene pianificare un budget giornaliero medio-alto:
+              New York non è una città economica.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="exit">USCITA</div>
+      <p>
+        Sei giorni bastano per farsi un'idea, non per esaurire la città. Il
+        resto è una buona scusa per tornare.
+      </p>
+    </footer>
+  </body>
+</html>
