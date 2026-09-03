@@ -23,9 +23,12 @@ export function renderDaySection(day, lineColorMap) {
     return stopHTML + connectorHTML;
   }).join("");
 
+  // Se il giorno è "00", lo trasformiamo in "31"
+  const dayNumDisplay = day.num === "00" ? "31" : day.num;
+
   section.innerHTML = `
     <div class="day-head">
-      <div class="day-num">${esc(day.num)}</div>
+      <div class="day-num">${esc(dayNumDisplay)}</div>
       <div class="day-info">
         <h2>${esc(day.title)}</h2>
         <div class="day-date">${esc(day.date)}</div>
