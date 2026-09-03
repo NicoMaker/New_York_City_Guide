@@ -16,6 +16,7 @@
   max-width: var(--content-w);
   margin: 0 auto;
   padding: 0 12px;
+  display:none;
 }
 .day-nav-scroll::-webkit-scrollbar{ display: none; }
 
