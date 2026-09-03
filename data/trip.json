@@ -1,0 +1,41 @@
+{
+  "badge": "ARRIVO LA NOTTE DI CAPODANNO",
+  "titleLines": [
+    "NEW YORK",
+    "CITY"
+  ],
+  "sub": "31 Dicembre 2026 → 5 Gennaio 2027",
+  "lead": "6 giorni tra Manhattan, Harlem e Brooklyn: dal Capodanno appena atterrati fino all'ultimo caffè prima del volo di rientro.",
+  "flights": [
+    {
+      "label": "✈ ANDATA — ARRIVO A NEW YORK",
+      "route": "Volo internazionale → JFK",
+      "time": "14:40",
+      "date": "Giovedì 31 Dicembre 2026"
+    },
+    {
+      "label": "✈ RITORNO — PARTENZA DA NEW YORK",
+      "route": "JFK → volo internazionale",
+      "time": "20:00",
+      "date": "Martedì 5 Gennaio 2027 · check-in entro le 17:00"
+    }
+  ],
+  "glance": [
+    {
+      "num": "6",
+      "label": "giorni a New York"
+    },
+    {
+      "num": "5",
+      "label": "quartieri esplorati"
+    },
+    {
+      "num": "~2°C",
+      "label": "media inizio gennaio"
+    },
+    {
+      "num": "01",
+      "label": "notte di Capodanno inclusa"
+    }
+  ]
+}

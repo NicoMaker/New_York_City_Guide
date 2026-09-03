@@ -1,0 +1,111 @@
+{
+  "id": "day5",
+  "num": "05",
+  "color": "#1F7A6C",
+  "title": "Ultima mattina & rientro",
+  "date": "Martedì 5 Gennaio 2027 — volo 20:00",
+  "banner": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Central_Station_Main_Concourse_Jan_2006.jpg?width=1200",
+    "alt": "Sala principale di Grand Central Terminal"
+  },
+  "summary": "Giorno di partenza: tempo contato. Con il volo alle 20:00 e l'obiettivo di essere in aeroporto entro le 17:00, hai una mattinata e un primo pomeriggio liberi — da tenere leggeri, vicino all'hotel e ai mezzi per JFK.",
+  "stops": [
+    {
+      "time": "09:00",
+      "title": "Colazione con calma & check-out",
+      "tag": "LOGISTICA",
+      "text": "Chiedi in hotel di lasciare i bagagli in deposito dopo il check-out, così l'ultima mattinata resta libera senza valigie al seguito."
+    },
+    {
+      "time": "10:00",
+      "title": "Grand Central Terminal",
+      "tag": "ARCHITETTURA",
+      "text": "La grande sala con il soffitto a volta blu dipinto di costellazioni è gratuita e a due passi da Midtown. Da fuori, bella vista sul Chrysler Building.",
+      "address": "89 E 42nd St, Manhattan",
+      "lat": 40.7527,
+      "lon": -73.9772,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Central_Station_Main_Concourse_Jan_2006.jpg?width=900",
+        "alt": "Sala principale di Grand Central Terminal"
+      },
+      "mapQuery": "Grand+Central+Terminal"
+    },
+    {
+      "time": "11:00",
+      "title": "Ultimo giro libero / shopping dell'ultimo minuto",
+      "tag": "TEMPO LIBERO",
+      "text": "Bagel da asporto, un ultimo pretzel per strada, o semplicemente una passeggiata senza meta in una zona che ti è piaciuta particolarmente."
+    },
+    {
+      "time": "13:00",
+      "title": "Pranzo leggero",
+      "tag": "CIBO",
+      "text": "Meglio qualcosa di rapido: un deli o un food hall vicino a dove recuperi i bagagli."
+    },
+    {
+      "time": "14:00",
+      "title": "Recupero bagagli e partenza verso JFK",
+      "tag": "ATTENZIONE ORARI",
+      "text": "Per essere in aeroporto entro le 17:00, parti da Manhattan indicativamente tra le 14:00 e le 14:30: in taxi/Uber conta 45-70 minuti (di più con traffico), in AirTrain + subway 70-90 minuti. Meglio abbondare, soprattutto se parti da zone centrali con traffico imprevedibile."
+    },
+    {
+      "time": "17:00",
+      "title": "In aeroporto — check-in e sicurezza",
+      "tag": "OBIETTIVO",
+      "text": "Con 3 ore di anticipo sul volo delle 20:00 hai margine comodo per check-in, controlli di sicurezza e un ultimo caffè al gate.",
+      "address": "John F. Kennedy International Airport, Queens",
+      "lat": 40.6413,
+      "lon": -73.7781
+    },
+    {
+      "time": "20:00",
+      "title": "Decollo — si torna a casa",
+      "tag": "FINE VIAGGIO",
+      "text": "Sei giorni, cinque quartieri, un Capodanno diverso dal solito. Buon rientro."
+    }
+  ],
+  "links": [
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.4,
+      "minutes": 6,
+      "note": "Verso Grand Central"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.5,
+      "minutes": 7,
+      "note": "Ultimo giro"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.3,
+      "minutes": 4,
+      "note": "Verso il pranzo"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.2,
+      "minutes": 3,
+      "note": "Recupero bagagli"
+    },
+    {
+      "mode": "AirTrain + Subway A / Taxi",
+      "line": "AirTrain + Subway A",
+      "distanceKm": 26,
+      "minutes": 75,
+      "note": "Verso JFK"
+    },
+    {
+      "mode": "attesa in aeroporto",
+      "line": null,
+      "distanceKm": 0,
+      "minutes": 180,
+      "note": "Check-in, sicurezza e attesa al gate"
+    }
+  ]
+}

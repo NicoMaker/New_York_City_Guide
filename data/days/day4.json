@@ -1,0 +1,126 @@
+{
+  "id": "day4",
+  "num": "04",
+  "color": "#6B4E9E",
+  "title": "Chelsea, High Line & Greenwich Village",
+  "date": "Lunedì 4 Gennaio 2027",
+  "banner": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Highline_02.jpg?width=1200",
+    "alt": "La High Line, parco sopraelevato di Manhattan"
+  },
+  "summary": "Giornata più rilassata, tra mercati coperti, quartieri boutique e vita da newyorkesi: la New York meno da cartolina e più autentica.",
+  "stops": [
+    {
+      "time": "10:00",
+      "title": "High Line",
+      "tag": "PARCO SOPRAELEVATO",
+      "text": "Ex ferrovia sopraelevata trasformata in parco lineare, con scorci sull'Hudson e sui grattacieli. In inverno è meno affollata: goditela con calma.",
+      "address": "Ingresso consigliato: Gansevoort St, Manhattan",
+      "lat": 40.7397,
+      "lon": -74.0081,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Highline_02.jpg?width=900",
+        "alt": "Passerella della High Line tra gli edifici"
+      },
+      "mapQuery": "High+Line+Gansevoort+Street"
+    },
+    {
+      "time": "11:15",
+      "title": "Chelsea Market",
+      "tag": "CIBO",
+      "text": "Mercato coperto con decine di banchi gastronomici: ottimo per il pranzo, prova le ostriche del Lobster Place o il ramen.",
+      "address": "75 9th Ave, Manhattan",
+      "lat": 40.7424,
+      "lon": -74.0061,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Chelsea_Market_entrance.jpg?width=900",
+        "alt": "Ingresso di Chelsea Market"
+      },
+      "mapQuery": "Chelsea+Market"
+    },
+    {
+      "time": "13:00",
+      "title": "Meatpacking District & Whitney Museum (esterno)",
+      "tag": "QUARTIERE",
+      "text": "Un tempo distretto industriale, oggi zona di boutique e design. Il Whitney Museum of American Art si affaccia proprio sull'ingresso sud della High Line.",
+      "address": "Meatpacking District, Manhattan",
+      "lat": 40.7395,
+      "lon": -74.0089,
+      "mapQuery": "Whitney+Museum+of+American+Art"
+    },
+    {
+      "time": "14:30",
+      "title": "Greenwich Village & Washington Square Park",
+      "tag": "PASSEGGIATA",
+      "text": "Stradine alberate, case in mattoni rossi, il celebre arco di Washington Square. Atmosfera molto diversa da Midtown: qui New York si fa bohémien.",
+      "address": "Washington Square Park, Manhattan",
+      "lat": 40.7308,
+      "lon": -73.9973,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Washington_Square_Arch_NYC.jpg?width=900",
+        "alt": "Arco di Washington Square Park"
+      },
+      "mapQuery": "Washington+Square+Park"
+    },
+    {
+      "time": "16:00",
+      "title": "SoHo — shopping e street art",
+      "tag": "SHOPPING",
+      "text": "Palazzi in ghisa ottocenteschi, negozi di design e boutique. Ottimo posto per gli ultimi regali senza il caos della Quinta Strada.",
+      "address": "SoHo, Manhattan",
+      "lat": 40.7233,
+      "lon": -74.003,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Soho_Cast_Iron_Historic_District_(51).JPG?width=900",
+        "alt": "Palazzi in ghisa di SoHo"
+      },
+      "mapQuery": "SoHo+Cast+Iron+Historic+District"
+    },
+    {
+      "time": "19:00",
+      "title": "Cena a Little Italy o Nolita",
+      "tag": "CIBO",
+      "text": "Piccola ma scenografica, a due passi da SoHo. Buona chiusura per l'ultima serata piena in città.",
+      "address": "Little Italy, Manhattan",
+      "lat": 40.7191,
+      "lon": -73.9973
+    }
+  ],
+  "links": [
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.6,
+      "minutes": 9,
+      "note": "Uscita dalla High Line verso Chelsea Market"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.5,
+      "minutes": 7,
+      "note": "Verso il Meatpacking District"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.3,
+      "minutes": 18,
+      "note": "Verso Washington Square Park"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.9,
+      "minutes": 12,
+      "note": "Verso SoHo"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.6,
+      "minutes": 9,
+      "note": "Verso Little Italy"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "intro": "New York si gira quasi tutta in subway: rete attiva 24/7, pagamento contactless con OMNY (carta o smartphone) direttamente ai tornelli, tariffa fissa a corsa indipendentemente dalla distanza percorsa.",
+  "fare": "2,90$ a corsa con OMNY o MetroCard. Dopo 12 corse pagate in una settimana (lun-dom) le successive sono gratuite fino a domenica.",
+  "lines": [
+    {
+      "codes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "color": "#2850AD",
+      "name": "8th Avenue Line",
+      "note": "Collega JFK (via AirTrain + Howard Beach) a Lower Manhattan, West Village, Chelsea e Harlem (125 St)."
+    },
+    {
+      "codes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "color": "#EE352E",
+      "name": "Broadway–7th Avenue Line",
+      "note": "South Ferry/Battery Park, Times Square, Chelsea, Harlem — la dorsale del lato ovest."
+    },
+    {
+      "codes": [
+        "4",
+        "5",
+        "6"
+      ],
+      "color": "#00933C",
+      "name": "Lexington Avenue Line",
+      "note": "Grand Central, Union Square, Wall St, 125 St lato est — molto trafficata nelle ore di punta."
+    },
+    {
+      "codes": [
+        "N",
+        "Q",
+        "R",
+        "W"
+      ],
+      "color": "#FCCC0A",
+      "name": "Broadway Line",
+      "note": "Times Square, Herald Square, Union Square: utile per Midtown e SoHo."
+    },
+    {
+      "codes": [
+        "B",
+        "D",
+        "F",
+        "M"
+      ],
+      "color": "#FF6319",
+      "name": "6th Avenue Line",
+      "note": "Rockefeller Center (47-50 Sts), Herald Square, 125 St lato ovest."
+    },
+    {
+      "codes": [
+        "L"
+      ],
+      "color": "#A7A9AC",
+      "name": "14th Street Line",
+      "note": "Attraversa Manhattan su 14th St, utile per Union Square–Meatpacking."
+    }
+  ],
+  "airport": {
+    "title": "Dall'aeroporto in città",
+    "options": [
+      {
+        "mode": "AirTrain + Subway",
+        "cost": "~11$ totali (8$ AirTrain + 2,90$ subway)",
+        "time": "60-75 min",
+        "note": "Prendi AirTrain fino a Howard Beach o Jamaica Station, poi linea A o LIRR verso Manhattan."
+      },
+      {
+        "mode": "Taxi giallo",
+        "cost": "52$ tariffa fissa verso Manhattan + pedaggi e mancia",
+        "time": "45-60 min senza traffico",
+        "note": "La sera di Capodanno il traffico può essere pesante."
+      },
+      {
+        "mode": "Uber / Lyft",
+        "cost": "Variabile con la domanda, simile al taxi",
+        "time": "45-70 min",
+        "note": "Comodo con bagagli ma prezzo meno prevedibile."
+      }
+    ]
+  }
+}

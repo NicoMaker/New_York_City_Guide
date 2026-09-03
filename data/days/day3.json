@@ -1,0 +1,151 @@
+{
+  "id": "day3",
+  "num": "03",
+  "color": "#B23A2E",
+  "title": "Harlem & Museo di Storia Naturale",
+  "date": "Domenica 3 Gennaio 2027",
+  "banner": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Harlem_-_Apollo_Theater.jpg?width=1200",
+    "alt": "Apollo Theater sulla 125th Street a Harlem"
+  },
+  "summary": "Mattina a Harlem come richiesto: storia, musica e brunch soul food. Nel primo pomeriggio si scende verso l'Upper West Side per Central Park e l'American Museum of Natural History.",
+  "stops": [
+    {
+      "time": "09:00",
+      "title": "Arrivo a Harlem — 125th Street",
+      "tag": "QUARTIERE",
+      "text": "Prendi la linea A/B/C/D fino a 125 St. La strada è il cuore commerciale e culturale del quartiere.",
+      "address": "125th St, Harlem, Manhattan",
+      "lat": 40.8093,
+      "lon": -73.9482,
+      "mapQuery": "125th+Street+Harlem+New+York"
+    },
+    {
+      "time": "09:30",
+      "title": "Apollo Theater",
+      "tag": "STORIA MUSICALE",
+      "text": "Il teatro leggendario dove hanno debuttato Ella Fitzgerald, James Brown e Michael Jackson (all'Amateur Night). Se organizzato in anticipo, i tour guidati raccontano tutta la storia del luogo.",
+      "address": "253 W 125th St, Harlem",
+      "lat": 40.8102,
+      "lon": -73.95,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo_Theater_2010.jpg?width=900",
+        "alt": "Facciata dell'Apollo Theater ad Harlem"
+      },
+      "mapQuery": "Apollo+Theater+Harlem"
+    },
+    {
+      "time": "10:30",
+      "title": "Studio Museum in Harlem / passeggiata culturale",
+      "tag": "ARTE",
+      "text": "Dedicato all'arte afroamericana e della diaspora. Se chiuso o in restauro, cammina lungo Malcolm X Blvd ammirando le brownstone d'epoca.",
+      "address": "Malcolm X Blvd, Harlem",
+      "lat": 40.8033,
+      "lon": -73.9459
+    },
+    {
+      "time": "11:30",
+      "title": "Domenica gospel (facoltativo)",
+      "tag": "ESPERIENZA",
+      "text": "Essendo domenica, molte chiese storiche di Harlem accolgono visitatori alle funzioni con coro gospel dal vivo. Vestiti in modo sobrio, arriva con anticipo e mantieni un comportamento rispettoso: è un luogo di culto attivo, non uno spettacolo turistico."
+    },
+    {
+      "time": "12:30",
+      "title": "Brunch soul food da Sylvia's",
+      "tag": "CIBO ICONICO",
+      "text": "Storico ristorante soul food di Harlem: pollo fritto, waffle, mac and cheese. La domenica il brunch con musica dal vivo è molto frequentato: arriva presto o mettiti in lista d'attesa.",
+      "address": "328 Malcolm X Blvd, Harlem",
+      "lat": 40.8078,
+      "lon": -73.9428,
+      "mapQuery": "Sylvia's+Restaurant+Harlem"
+    },
+    {
+      "time": "14:00",
+      "title": "Central Park — ingresso nord/ovest",
+      "tag": "PARCO",
+      "text": "Scendendo verso l'Upper West Side, attraversa una fetta di Central Park: in inverno è quasi spoglio ma molto suggestivo, specie intorno al Reservoir.",
+      "address": "Central Park West, Manhattan",
+      "lat": 40.7969,
+      "lon": -73.9587,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Winter_view_of_the_Bow_Bridge_in_Central_Park.jpg?width=900",
+        "alt": "Central Park innevato in inverno"
+      },
+      "mapQuery": "Central+Park+West+110th+Street"
+    },
+    {
+      "time": "15:00",
+      "title": "American Museum of Natural History",
+      "tag": "DA PRENOTARE",
+      "text": "Uno dei musei di scienze naturali più grandi al mondo: scheletri di dinosauri, la sala degli oceani con la balenottera azzurra, il planetario Hayden. Metti in conto almeno 2 ore, di più se ami i dinosauri.",
+      "address": "200 Central Park West, Manhattan",
+      "lat": 40.7813,
+      "lon": -73.974,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Museum_of_Natural_History_02.jpg?width=900",
+        "alt": "Facciata dell'American Museum of Natural History"
+      },
+      "mapQuery": "American+Museum+of+Natural+History"
+    },
+    {
+      "time": "18:00",
+      "title": "Cena sull'Upper West Side",
+      "tag": "CIBO",
+      "text": "Zona residenziale e tranquilla, ottima per una cena rilassata dopo una giornata piena.",
+      "address": "Upper West Side, Manhattan",
+      "lat": 40.787,
+      "lon": -73.9754
+    }
+  ],
+  "links": [
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.2,
+      "minutes": 3,
+      "note": "Sulla 125th Street"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.3,
+      "minutes": 4,
+      "note": "Lungo Malcolm X Blvd"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.3,
+      "minutes": 4,
+      "note": "Verso la chiesa più vicina"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.4,
+      "minutes": 5,
+      "note": "Verso Sylvia's"
+    },
+    {
+      "mode": "metro",
+      "line": "2/3 fino a Central Park North (110 St)",
+      "distanceKm": 3.0,
+      "minutes": 20,
+      "note": "Verso Central Park"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.6,
+      "minutes": 22,
+      "note": "Attraversando il parco verso l'Upper West Side"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.7,
+      "minutes": 10,
+      "note": "Verso il ristorante serale"
+    }
+  ]
+}

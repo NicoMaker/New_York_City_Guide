@@ -1,0 +1,53 @@
+/* --------------------------------------------------------------------
+   DAY NAVIGATOR (sticky, come un selettore di linea metro)
+   -------------------------------------------------------------------- */
+.day-nav{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--ink);
+  border-bottom: 3px solid var(--taxi);
+}
+
+.day-nav-scroll{
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  max-width: var(--content-w);
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.day-nav-scroll::-webkit-scrollbar{ display: none; }
+
+.day-nav button{
+  flex: 0 0 auto;
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.55);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -3px;
+  transition: color 0.15s ease;
+  white-space: nowrap;
+}
+
+.day-nav button .chip{
+  width: 8px; height: 8px; border-radius: 50%;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+.day-nav button.active{
+  color: var(--white);
+  border-bottom-color: var(--taxi);
+}
+.day-nav button.active .chip{ opacity: 1; background: var(--taxi); }
+
+.day-nav button:hover{ color: var(--white); }

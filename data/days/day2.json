@@ -1,0 +1,158 @@
+{
+  "id": "day2",
+  "num": "02",
+  "color": "#C9962C",
+  "title": "Midtown: Empire State & Top of the Rock",
+  "date": "Sabato 2 Gennaio 2027",
+  "banner": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Empire_State_Building.jpg?width=1200",
+    "alt": "Empire State Building al tramonto"
+  },
+  "summary": "Giornata verticale: due dei belvedere più famosi del mondo, la Quinta Strada e Rockefeller Center. Consiglio: Empire State al mattino presto (meno coda) e Top of the Rock al tramonto — perché da lì vedi l'Empire State illuminato, cosa che dall'Empire State stesso non puoi fare.",
+  "stops": [
+    {
+      "time": "08:30",
+      "title": "Empire State Building",
+      "tag": "DA PRENOTARE",
+      "text": "Prenota il time-slot online per saltare la fila principale. Sali all'86° piano (terrazza esterna); se vuoi anche il 102° metti in conto un supplemento e altri 15-20 minuti.",
+      "address": "20 W 34th St, Manhattan",
+      "lat": 40.7484,
+      "lon": -73.9857,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Empire_State_Building_%28aerial_view%29.jpg?width=900",
+        "alt": "Empire State Building visto dall'alto"
+      },
+      "mapQuery": "Empire+State+Building"
+    },
+    {
+      "time": "10:30",
+      "title": "Quinta Strada verso nord",
+      "tag": "PASSEGGIATA",
+      "text": "Vetrine, la New York Public Library con i leoni di pietra, Bryant Park (a inizio gennaio spesso c'è ancora la pista di pattinaggio).",
+      "address": "5th Ave, Manhattan",
+      "lat": 40.7532,
+      "lon": -73.9822,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Public_Library_Lions.jpg?width=900",
+        "alt": "Leone di pietra davanti alla New York Public Library"
+      },
+      "mapQuery": "New+York+Public+Library+5th+Avenue"
+    },
+    {
+      "time": "12:30",
+      "title": "Pranzo — Grand Central Market o food hall",
+      "tag": "CIBO",
+      "text": "Ottimo per assaggiare più cose in un posto solo senza perdere tempo.",
+      "lat": 40.7527,
+      "lon": -73.9772
+    },
+    {
+      "time": "14:00",
+      "title": "MoMA (opzionale)",
+      "tag": "FACOLTATIVO",
+      "text": "Se ami l'arte moderna, due ore qui volano. Se preferisci più tempo libero per lo shopping, salta questa tappa senza rimpianti — il programma regge comunque.",
+      "address": "11 W 53rd St, Manhattan",
+      "lat": 40.7614,
+      "lon": -73.9776,
+      "mapQuery": "MoMA+New+York"
+    },
+    {
+      "time": "16:15",
+      "title": "Rockefeller Center & pista di pattinaggio",
+      "tag": "ICONA STAGIONALE",
+      "text": "L'albero di Natale resta acceso di solito fino ai primi giorni di gennaio: potresti farcela per un pelo. Anche senza albero, la piazza col Prometheus dorato e la pista è molto scenografica.",
+      "address": "45 Rockefeller Plaza, Manhattan",
+      "lat": 40.7587,
+      "lon": -73.9787,
+      "mapQuery": "Rockefeller+Center"
+    },
+    {
+      "time": "16:45",
+      "title": "Top of the Rock al tramonto",
+      "tag": "DA PRENOTARE",
+      "text": "Prenota lo slot proprio intorno al tramonto (~16:40 a inizio gennaio) per vedere la città passare dalla luce del giorno alle luci notturne, con l'Empire State come protagonista dello skyline.",
+      "address": "30 Rockefeller Plaza, Manhattan",
+      "lat": 40.7588,
+      "lon": -73.9797,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_from_top_of_the_rock.JPG?width=900",
+        "alt": "Vista su Manhattan dal Top of the Rock"
+      },
+      "mapQuery": "Top+of+the+Rock"
+    },
+    {
+      "time": "18:30",
+      "title": "Times Square by night",
+      "tag": "DA VEDERE",
+      "text": "Ora che il grosso della folla di Capodanno si è diradato, è il momento giusto per vederlo senza il caos del 31.",
+      "address": "Times Square, Manhattan",
+      "lat": 40.758,
+      "lon": -73.9855,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_Square%2C_New_York_City_%28HDR%29.jpg?width=900",
+        "alt": "Times Square di notte con le insegne luminose"
+      },
+      "mapQuery": "Times+Square+New+York"
+    },
+    {
+      "time": "19:30",
+      "title": "Cena a Hell's Kitchen",
+      "tag": "CIBO",
+      "text": "Zona con altissima densità di ristoranti di ogni tipo e prezzo, a due passi da Times Square.",
+      "address": "Hell's Kitchen, Manhattan",
+      "lat": 40.7638,
+      "lon": -73.9918
+    }
+  ],
+  "links": [
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.5,
+      "minutes": 20,
+      "note": "Da Empire State verso la Quinta Strada"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.3,
+      "minutes": 4,
+      "note": "Verso Grand Central"
+    },
+    {
+      "mode": "metro",
+      "line": "B/D/F/M fino a 47-50 Sts",
+      "distanceKm": 1.9,
+      "minutes": 15,
+      "note": "Verso il MoMA"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.4,
+      "minutes": 6,
+      "note": "Verso Rockefeller Center"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.1,
+      "minutes": 2,
+      "note": "Ingresso Top of the Rock"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.9,
+      "minutes": 12,
+      "note": "Verso Times Square"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.7,
+      "minutes": 10,
+      "note": "Verso Hell's Kitchen"
+    }
+  ]
+}

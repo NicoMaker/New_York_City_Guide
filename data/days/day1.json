@@ -1,0 +1,188 @@
+{
+  "id": "day1",
+  "num": "01",
+  "color": "#1E5AA8",
+  "title": "Lower Manhattan & Statua della Libertà",
+  "date": "Venerdì 1 Gennaio 2027 — Capodanno",
+  "banner": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty%2C_NY.jpg?width=1200",
+    "alt": "Statua della Libertà, New York"
+  },
+  "summary": "Si parte presto per battere le code al traghetto. Giornata dedicata ai simboli della città vecchia: Statua della Libertà, Ellis Island, Ground Zero, Wall Street e il ponte di Brooklyn al tramonto.",
+  "stops": [
+    {
+      "time": "08:30",
+      "title": "Battery Park — imbarco per Liberty Island",
+      "tag": "DA PRENOTARE",
+      "text": "I traghetti Statue Cruises partono da Battery Park. Prenota online in anticipo (il biglietto Reserve include Statua + Ellis Island); anche a Capodanno il servizio è attivo con orari ridotti.",
+      "address": "Battery Park, State St, Manhattan",
+      "lat": 40.7033,
+      "lon": -74.017,
+      "mapQuery": "Battery+Park+Statue+Cruises+New+York"
+    },
+    {
+      "time": "09:30",
+      "title": "Statua della Libertà",
+      "tag": "ICONA",
+      "text": "Passeggia intorno al basamento; se hai prenotato il biglietto per la corona, tieni conto di sicurezza aggiuntiva e limite di oggetti a bordo.",
+      "address": "Liberty Island",
+      "lat": 40.6892,
+      "lon": -74.0445,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty_7.jpg?width=900",
+        "alt": "Statua della Libertà vista dal basso"
+      },
+      "mapQuery": "Statue+of+Liberty+National+Monument"
+    },
+    {
+      "time": "11:15",
+      "title": "Ellis Island — Museo dell'Immigrazione",
+      "tag": "STORIA",
+      "text": "Il museo racconta la storia dei milioni di migranti entrati negli Stati Uniti da qui tra il 1892 e il 1954. Molto toccante, merita almeno un'ora.",
+      "address": "Ellis Island",
+      "lat": 40.6993,
+      "lon": -74.0413,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ellis_Island_2.jpg?width=900",
+        "alt": "Edificio principale di Ellis Island"
+      },
+      "mapQuery": "Ellis+Island"
+    },
+    {
+      "time": "13:30",
+      "title": "Pranzo veloce a Financial District",
+      "tag": "CIBO",
+      "text": "Tornati sulla terraferma, punta su un food hall o un deli intorno a Wall Street.",
+      "lat": 40.7075,
+      "lon": -74.009
+    },
+    {
+      "time": "14:45",
+      "title": "9/11 Memorial & Museum",
+      "tag": "MEMORIALE",
+      "text": "Le due vasche memoriali sull'impronta delle Torri Gemelle sono ad accesso libero. Il museo sotterraneo è a pagamento e richiede almeno 1h30.",
+      "address": "180 Greenwich St, Manhattan",
+      "lat": 40.7115,
+      "lon": -74.0134,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/9-11_Memorial_South_Pool.jpg?width=900",
+        "alt": "Vasca memoriale del 9/11 Memorial"
+      },
+      "mapQuery": "9/11+Memorial+Museum+New+York"
+    },
+    {
+      "time": "16:15",
+      "title": "Oculus",
+      "tag": "ARCHITETTURA",
+      "text": "Lo spettacolare hub dei trasporti disegnato da Santiago Calatrava, con la sua struttura a costole bianche che ricorda un uccello in volo: un centro commerciale/stazione da vedere anche solo di passaggio.",
+      "address": "Westfield World Trade Center, Manhattan",
+      "lat": 40.7115,
+      "lon": -74.0099,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Oculus_interior_2016.jpg?width=900",
+        "alt": "Interno dell'Oculus al World Trade Center"
+      },
+      "mapQuery": "Oculus+World+Trade+Center"
+    },
+    {
+      "time": "16:45",
+      "title": "Wall Street — Charging Bull & Federal Hall",
+      "tag": "SIMBOLO FINANZIARIO",
+      "text": "Il cuore della finanza mondiale: passa dal Charging Bull (il toro di bronzo, meta fotografica classica), ammira la facciata neoclassica della Federal Hall e la sede storica del New York Stock Exchange. La strada è stretta e sempre affollata di turisti in cerca dello scatto col toro.",
+      "address": "Wall St, Financial District, Manhattan",
+      "lat": 40.7069,
+      "lon": -74.0107,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Charging_Bull_ny.jpg?width=900",
+        "alt": "Charging Bull su Wall Street"
+      },
+      "mapQuery": "Wall+Street+Charging+Bull+New+York"
+    },
+    {
+      "time": "17:15",
+      "title": "Ponte di Brooklyn a piedi, al tramonto",
+      "tag": "VISTA",
+      "text": "La camminata dura circa 25-30 minuti. A inizio gennaio il sole tramonta verso le 16:40, quindi arriverai con la luce blu della sera — porta i guanti, sul ponte tira vento.",
+      "address": "Brooklyn Bridge, accesso lato Manhattan: Park Row / City Hall",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Bridge_Manhattan.jpg?width=900",
+        "alt": "Ponte di Brooklyn con lo skyline di Manhattan"
+      },
+      "mapQuery": "Brooklyn+Bridge+pedestrian+entrance"
+    },
+    {
+      "time": "18:00",
+      "title": "DUMBO, Brooklyn — cena con vista skyline",
+      "tag": "CIBO & VISTA",
+      "text": "Da Washington St / Water St hai la vista da cartolina sul Manhattan Bridge. Zona piena di ristoranti e la storica Grimaldi's Pizza.",
+      "address": "Washington St / Water St, DUMBO, Brooklyn",
+      "lat": 40.7033,
+      "lon": -73.9903,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Washington_Street%2C_Dumbo%2C_Brooklyn.jpg?width=900",
+        "alt": "Washington Street a DUMBO con il Manhattan Bridge sullo sfondo"
+      },
+      "mapQuery": "DUMBO+Brooklyn+Washington+Street"
+    }
+  ],
+  "links": [
+    {
+      "mode": "traghetto",
+      "line": "Statue Cruises",
+      "distanceKm": 2.6,
+      "minutes": 20,
+      "note": "Battery Park → Liberty Island"
+    },
+    {
+      "mode": "traghetto",
+      "line": "Statue Cruises",
+      "distanceKm": 0.8,
+      "minutes": 10,
+      "note": "Liberty Island → Ellis Island"
+    },
+    {
+      "mode": "traghetto + a piedi",
+      "line": "Statue Cruises → Battery Park",
+      "distanceKm": 3.4,
+      "minutes": 30,
+      "note": "Ritorno a Manhattan e verso Wall St"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.9,
+      "minutes": 12,
+      "note": "Verso il 9/11 Memorial"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.3,
+      "minutes": 4,
+      "note": "Attraversamento verso l'Oculus"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.5,
+      "minutes": 7,
+      "note": "Verso Wall Street"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.9,
+      "minutes": 12,
+      "note": "Da Wall Street all'accesso del ponte"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.8,
+      "minutes": 28,
+      "note": "Attraversamento del Ponte di Brooklyn"
+    }
+  ]
+}

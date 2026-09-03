@@ -1,0 +1,48 @@
+{
+  "title": "Info pratiche",
+  "lead": "Tutto quello che serve sapere prima di partire, in una pagina sola.",
+  "cards": [
+    {
+      "title": "Meteo — inizio gennaio",
+      "text": "Temperature medie tra -2°C e 5°C, spesso ventoso soprattutto vicino all'acqua (Battery Park, ponti, High Line). Possibili nevicate leggere. Vestiti a strati: piumino, sciarpa, guanti e scarpe impermeabili con suola buona sono più utili di un solo cappotto pesante."
+    },
+    {
+      "title": "Muoversi in metro",
+      "text": "Usa OMNY (pagamento contactless con carta o smartphone direttamente ai tornelli): non serve comprare una MetroCard. Tariffa singola fissa indipendentemente dalla distanza; dopo 12 corse in una settimana il resto è gratuito."
+    },
+    {
+      "title": "Dall'aeroporto in città",
+      "text": "AirTrain JFK (8$) + subway (2,90$): economico ma più lento. Taxi giallo: tariffa fissa 52$ verso Manhattan + pedaggi e mancia (15-20%). Uber/Lyft simile al taxi, prezzo variabile con la domanda."
+    },
+    {
+      "title": "Mance (tipping)",
+      "text": "Al ristorante 18-20% sul conto prima delle tasse è lo standard. Per i taxi 15-20%. Per il servizio in camera d'hotel 2-5$ al giorno. Non è opzionale come in Europa: è parte integrante dello stipendio di chi lavora nel settore."
+    },
+    {
+      "title": "Prenotazioni da fare in anticipo",
+      "text": "Empire State Building, Top of the Rock, Statua della Libertà/Ellis Island e American Museum of Natural History vendono biglietti a orario: prenotali online almeno una settimana prima, soprattutto per il periodo di Capodanno."
+    },
+    {
+      "title": "Cosa assaggiare",
+      "text": "Bagel con cream cheese a colazione, una fetta di pizza newyorkese piegata a metà, un pastrami sandwich, un pretzel caldo da un carretto, cioccolata calda dopo una giornata fredda in giro."
+    }
+  ],
+  "packing": {
+    "title": "Checklist bagaglio inverno NYC",
+    "sub": "Tocca una voce per segnarla come fatta — il progresso si aggiorna in tempo reale.",
+    "items": [
+      "Piumino / cappotto invernale",
+      "Guanti e sciarpa",
+      "Berretto",
+      "Scarpe impermeabili",
+      "Maglioni / strati termici",
+      "Documenti + ESTA/visto",
+      "Adattatore per prese USA",
+      "Carta contactless per OMNY",
+      "Prenotazioni stampate/salvate",
+      "Power bank",
+      "Crema idratante (aria secca da riscaldamento)",
+      "Zaino pieghevole per le giornate in giro"
+    ]
+  }
+}

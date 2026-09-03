@@ -1,0 +1,76 @@
+{
+  "id": "day0",
+  "num": "00",
+  "color": "#F2B705",
+  "title": "Arrivo & Capodanno",
+  "date": "Giovedì 31 Dicembre 2026",
+  "banner": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_Square_at_Night_%287823232238%29.jpg?width=1200",
+    "alt": "Times Square illuminata di notte"
+  },
+  "summary": "Atterri nel giorno più affollato dell'anno a New York. Niente panico: con l'orario di arrivo non hai modo (né bisogno) di infilarti nei recinti di Times Square, che chiudono nel primo pomeriggio. Meglio un Capodanno più semplice e vivibile dopo un volo lungo.",
+  "stops": [
+    {
+      "time": "14:40",
+      "title": "Atterraggio a JFK",
+      "tag": "LOGISTICA",
+      "text": "Metti in conto 45-60 minuti tra controlli e ritiro bagagli. Per il trasferimento in città: AirTrain + subway (~11$, 60-75 min) oppure taxi a tariffa fissa (52$ + pedaggi e mancia verso Manhattan, ~45-60 min senza traffico). La sera di Capodanno il traffico può essere pesante: se puoi, scegli il treno.",
+      "address": "John F. Kennedy International Airport, Queens",
+      "lat": 40.6413,
+      "lon": -73.7781,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/JFK_Airport_Terminal_4.jpg?width=900",
+        "alt": "Terminal dell'aeroporto JFK di New York"
+      },
+      "mapQuery": "JFK+Airport+New+York"
+    },
+    {
+      "time": "16:30",
+      "title": "Check-in in hotel e primo respiro",
+      "tag": "RIPOSO",
+      "text": "Lascia i bagagli, cambiati e concediti una doccia. Con il jet lag e una città in modalità Capodanno, non forzare il programma: questo primo pomeriggio serve a ricaricare le pile.",
+      "address": "Hotel a Midtown Manhattan",
+      "lat": 40.7549,
+      "lon": -73.984
+    },
+    {
+      "time": "19:00",
+      "title": "Cena di Capodanno vicino all'hotel",
+      "tag": "CIBO",
+      "text": "La sera del 31 molti ristoranti richiedono un menù fisso prenotato con giorni di anticipo. Se non hai prenotato, punta su una pizzeria classica o un diner: sono meno soggetti a menù speciali e restano aperti fino a tardi."
+    },
+    {
+      "time": "23:00",
+      "title": "Mezzanotte: Central Park invece di Times Square",
+      "tag": "CONSIGLIO",
+      "text": "I recinti ufficiali di Times Square chiudono l'accesso già dal primo pomeriggio e richiedono ore di attesa al freddo senza bagno né possibilità di uscire: sconsigliato se atterri lo stesso giorno. Alternativa più semplice: passeggia verso Columbus Circle o l'angolo sud di Central Park, dove si sente comunque l'energia della città e i fuochi d'artificio sono visibili in lontananza. Oppure, più comodo, un rooftop bar vicino all'hotel. Se preferisci restare tranquilli: guardare il countdown in TV/hotel è un'ottima opzione dopo un volo intercontinentale.",
+      "address": "Columbus Circle, Manhattan",
+      "lat": 40.7681,
+      "lon": -73.9819,
+      "mapQuery": "Columbus+Circle+New+York"
+    }
+  ],
+  "links": [
+    {
+      "mode": "treno/taxi",
+      "line": "AirTrain + Subway A / Taxi",
+      "distanceKm": 26,
+      "minutes": 65,
+      "note": "Da JFK all'hotel a Midtown"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0.4,
+      "minutes": 6,
+      "note": "Vicino all'hotel"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.2,
+      "minutes": 15,
+      "note": "Verso Columbus Circle / Central Park"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "day0",
+    "num": "00",
+    "color": "#F2B705",
+    "title": "Arrivo & Capodanno",
+    "shortLabel": "Giovedì 31 Dicembre 2026"
+  },
+  {
+    "id": "day1",
+    "num": "01",
+    "color": "#1E5AA8",
+    "title": "Lower Manhattan & Statua della Libertà",
+    "shortLabel": "Venerdì 1 Gennaio 2027"
+  },
+  {
+    "id": "day2",
+    "num": "02",
+    "color": "#C9962C",
+    "title": "Midtown: Empire State & Top of the Rock",
+    "shortLabel": "Sabato 2 Gennaio 2027"
+  },
+  {
+    "id": "day3",
+    "num": "03",
+    "color": "#B23A2E",
+    "title": "Harlem & Museo di Storia Naturale",
+    "shortLabel": "Domenica 3 Gennaio 2027"
+  },
+  {
+    "id": "day4",
+    "num": "04",
+    "color": "#6B4E9E",
+    "title": "Chelsea, High Line & Greenwich Village",
+    "shortLabel": "Lunedì 4 Gennaio 2027"
+  },
+  {
+    "id": "day5",
+    "num": "05",
+    "color": "#1F7A6C",
+    "title": "Ultima mattina & rientro",
+    "shortLabel": "Martedì 5 Gennaio 2027"
+  }
+]

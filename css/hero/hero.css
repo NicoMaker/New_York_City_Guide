@@ -1,0 +1,148 @@
+/* --------------------------------------------------------------------
+   HERO
+   -------------------------------------------------------------------- */
+.hero{
+  background:
+    linear-gradient(180deg, rgba(15,21,30,0.72) 0%, rgba(15,21,30,0.88) 55%, var(--ink) 100%),
+    url('https://commons.wikimedia.org/wiki/Special:FilePath/New_York_City_Skyline_at_Dusk.jpg?width=1600') center 60% / cover no-repeat;
+  color: var(--white);
+  padding: 76px 24px 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(115deg, rgba(242,183,5,0.07) 0px, rgba(242,183,5,0.07) 2px, transparent 2px, transparent 64px);
+  pointer-events: none;
+}
+
+.hero-badge{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--taxi);
+  border: 1px solid rgba(242,183,5,0.4);
+  border-radius: 999px;
+  padding: 6px 14px;
+  margin-bottom: 28px;
+}
+
+.hero-badge .dot{
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--taxi);
+}
+
+.hero h1{
+  font-family: var(--font-display);
+  font-size: clamp(52px, 11vw, 96px);
+  line-height: 0.92;
+  letter-spacing: 0.01em;
+  margin: 0 0 6px;
+  max-width: 620px;
+}
+
+.hero .sub{
+  font-family: var(--font-display);
+  font-size: clamp(24px, 5vw, 34px);
+  color: var(--taxi);
+  letter-spacing: 0.02em;
+  margin: 0 0 28px;
+}
+
+.hero p.lead{
+  max-width: 480px;
+  color: rgba(255,255,255,0.75);
+  font-size: 16.5px;
+  margin: 0 0 40px;
+}
+
+.flight-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(255,255,255,0.14);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  max-width: 620px;
+}
+
+.flight-card{
+  background: #1A2432;
+  padding: 20px 22px;
+}
+
+.flight-card .fc-label{
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.flight-card .fc-route{
+  font-size: 15px;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 4px;
+}
+
+.flight-card .fc-time{
+  font-family: var(--font-display);
+  font-size: 40px;
+  color: var(--white);
+  line-height: 1;
+}
+
+.flight-card .fc-date{
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+  margin-top: 6px;
+}
+
+@media (max-width: 560px){
+  .flight-cards{ grid-template-columns: 1fr; }
+}
+
+/* --------------------------------------------------------------------
+   AT A GLANCE strip
+   -------------------------------------------------------------------- */
+.glance{
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+
+.glance-row{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.glance-item{
+  padding: 22px 20px;
+  border-right: 1px solid var(--line);
+}
+.glance-item:last-child{ border-right: none; }
+
+.glance-item .gi-num{
+  font-family: var(--font-display);
+  font-size: 34px;
+  color: var(--ink);
+  line-height: 1;
+}
+
+.glance-item .gi-label{
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  margin-top: 6px;
+}
+
+@media (max-width: 640px){
+  .glance-row{ grid-template-columns: repeat(2, 1fr); }
+  .glance-item:nth-child(2){ border-right: none; }
+}
