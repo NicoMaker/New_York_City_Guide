@@ -8,7 +8,7 @@
     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Harlem_-_Apollo_Theater.jpg?width=1200",
     "alt": "Apollo Theater sulla 125th Street a Harlem"
   },
-  "summary": "Mattina a Harlem come richiesto: storia, musica e brunch soul food. Nel primo pomeriggio si scende verso l'Upper West Side per Central Park e l'American Museum of Natural History.",
+  "summary": "Mattina a Harlem come richiesto: storia, musica e brunch soul food. Nel primo pomeriggio si attraversa Central Park quasi per intero, da nord a sud, fino a Bethesda Terrace, per poi scendere verso l'Upper West Side e l'American Museum of Natural History.",
   "stops": [
     {
       "time": "09:00",
@@ -61,20 +61,34 @@
     },
     {
       "time": "14:00",
-      "title": "Central Park — ingresso nord/ovest",
+      "title": "Central Park — ingresso nord & Reservoir",
       "tag": "PARCO",
-      "text": "Scendendo verso l'Upper West Side, attraversa una fetta di Central Park: in inverno è quasi spoglio ma molto suggestivo, specie intorno al Reservoir.",
-      "address": "Central Park West, Manhattan",
+      "text": "Entra da Central Park North e costeggia il Jacqueline Kennedy Onassis Reservoir: in inverno il parco è quasi spoglio ma molto suggestivo, con lo skyline di Midtown che spunta oltre gli alberi. Da qui inizia una lunga passeggiata verso sud, attraversando praticamente tutto il parco.",
+      "address": "Central Park North, Manhattan",
       "lat": 40.7969,
       "lon": -73.9587,
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Winter_view_of_the_Bow_Bridge_in_Central_Park.jpg?width=900",
-        "alt": "Central Park innevato in inverno"
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Central_Park_reservoir_fence_1.jpg?width=900",
+        "alt": "Il Reservoir di Central Park"
       },
-      "mapQuery": "Central+Park+West+110th+Street"
+      "mapQuery": "Central+Park+North+110th+Street"
     },
     {
-      "time": "15:00",
+      "time": "14:40",
+      "title": "Bethesda Terrace & Bow Bridge",
+      "tag": "ICONA DEL PARCO",
+      "text": "Il cuore scenografico di Central Park: la terrazza con l'Angel of the Waters Fountain, l'arcata piastrellata sotto il ponte carrozzabile e, poco oltre, il romantico Bow Bridge in ghisa sul laghetto. È la parte di Central Park più fotografata e riconoscibile al mondo, comparsa in decine di film.",
+      "address": "Central Park, Bethesda Terrace, Manhattan",
+      "lat": 40.7735,
+      "lon": -73.9701,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bethesda_Terrace,_Central_Park,_New_York.jpg?width=900",
+        "alt": "Bethesda Terrace a Central Park"
+      },
+      "mapQuery": "Bethesda+Terrace+Central+Park"
+    },
+    {
+      "time": "15:30",
       "title": "American Museum of Natural History",
       "tag": "DA PRENOTARE",
       "text": "Uno dei musei di scienze naturali più grandi al mondo: scheletri di dinosauri, la sala degli oceani con la balenottera azzurra, il planetario Hayden. Metti in conto almeno 2 ore, di più se ami i dinosauri.",
@@ -136,9 +150,16 @@
     {
       "mode": "a piedi",
       "line": null,
-      "distanceKm": 1.6,
-      "minutes": 22,
-      "note": "Attraversando il parco verso l'Upper West Side"
+      "distanceKm": 2.4,
+      "minutes": 35,
+      "note": "Attraversando quasi tutto il parco, da nord a Bethesda Terrace"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.1,
+      "minutes": 15,
+      "note": "Da Bethesda Terrace verso l'Upper West Side e il museo"
     },
     {
       "mode": "a piedi",

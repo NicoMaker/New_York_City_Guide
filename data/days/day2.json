@@ -11,6 +11,20 @@
   "summary": "Giornata verticale: due dei belvedere più famosi del mondo, la Quinta Strada e Rockefeller Center. Consiglio: Empire State al mattino presto (meno coda) e Top of the Rock al tramonto — perché da lì vedi l'Empire State illuminato, cosa che dall'Empire State stesso non puoi fare.",
   "stops": [
     {
+      "time": "07:45",
+      "title": "Madison Square Park & Flatiron Building",
+      "tag": "PASSEGGIATA MATTUTINA",
+      "text": "Prima che arrivi la folla, attraversa questo parco storico all'incrocio tra Fifth Avenue, Broadway e Madison Avenue. Da qui hai la vista da cartolina sul Flatiron Building, il grattacielo a forma di ferro da stiro del 1902 che ha dato il nome a tutto il quartiere. Se hai tempo, il parco ospita anche il primo Shake Shack al mondo, nato qui come chiosco nel 2004.",
+      "address": "Madison Square Park, 23rd St & 5th Ave, Manhattan",
+      "lat": 40.742,
+      "lon": -73.9878,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Flatiron_Building_Madison_Square_Park.jpg?width=900",
+        "alt": "Flatiron Building visto da Madison Square Park"
+      },
+      "mapQuery": "Madison+Square+Park+New+York"
+    },
+    {
       "time": "08:30",
       "title": "Empire State Building",
       "tag": "DA PRENOTARE",
@@ -105,6 +119,13 @@
     }
   ],
   "links": [
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.1,
+      "minutes": 14,
+      "note": "Da Madison Square Park verso l'Empire State Building"
+    },
     {
       "mode": "a piedi",
       "line": null,

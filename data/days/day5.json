@@ -8,7 +8,7 @@
     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Central_Station_Main_Concourse_Jan_2006.jpg?width=1200",
     "alt": "Sala principale di Grand Central Terminal"
   },
-  "summary": "Giorno di partenza: tempo contato. Con il volo alle 20:00 e l'obiettivo di essere in aeroporto entro le 17:00, hai una mattinata e un primo pomeriggio liberi — da tenere leggeri, vicino all'hotel e ai mezzi per JFK.",
+  "summary": "Giorno di partenza: tempo contato. Con il volo alle 20:00 e l'obiettivo di essere in aeroporto entro le 17:00, hai una mattinata e un primo pomeriggio liberi — da tenere leggeri, vicino all'hotel e ai mezzi per JFK. Ci si ritaglia comunque quaranta minuti per un salto veloce nel Queens, l'unico borough rimasto fuori dal programma finora (a parte l'aeroporto stesso).",
   "stops": [
     {
       "time": "09:00",
@@ -31,10 +31,24 @@
       "mapQuery": "Grand+Central+Terminal"
     },
     {
-      "time": "11:00",
-      "title": "Ultimo giro libero / shopping dell'ultimo minuto",
+      "time": "10:45",
+      "title": "Salto a Long Island City, Queens",
+      "tag": "QUARTIERE EXTRA",
+      "text": "Dalla stazione 42nd St-Bryant Park, il treno 7 porta a Court Sq-23rd St, nel cuore di Long Island City, in circa 10-12 minuti: il modo più rapido per mettere piede nel Queens senza intaccare il programma. Cammina fino a Gantry Plaza State Park: da qui hai una delle viste più belle e meno turistiche sullo skyline di Midtown Manhattan, con le vecchie gru portuali e l'insegna Pepsi-Cola sullo sfondo.",
+      "address": "Gantry Plaza State Park, Long Island City, Queens",
+      "lat": 40.7454,
+      "lon": -73.9599,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Pepsi_Sign_Gantry_Plaza_State_Park.JPG?width=900",
+        "alt": "Insegna Pepsi-Cola a Gantry Plaza State Park, Queens, con lo skyline di Manhattan"
+      },
+      "mapQuery": "Gantry+Plaza+State+Park+Queens"
+    },
+    {
+      "time": "11:45",
+      "title": "Rientro a Manhattan e ultimo giro libero",
       "tag": "TEMPO LIBERO",
-      "text": "Bagel da asporto, un ultimo pretzel per strada, o semplicemente una passeggiata senza meta in una zona che ti è piaciuta particolarmente."
+      "text": "Stesso treno 7 in senso opposto verso Manhattan. Tempo per un bagel da asporto, un ultimo pretzel per strada, o una passeggiata senza meta in una zona che ti è piaciuta particolarmente."
     },
     {
       "time": "13:00",
@@ -52,7 +66,7 @@
       "time": "17:00",
       "title": "In aeroporto — check-in e sicurezza",
       "tag": "OBIETTIVO",
-      "text": "Con 3 ore di anticipo sul volo delle 20:00 hai margine comodo per check-in, controlli di sicurezza e un ultimo caffè al gate.",
+      "text": "Con 3 ore di anticipo sul volo delle 20:00 hai margine comodo per check-in, controlli di sicurezza e un ultimo caffè al gate. JFK è anch'esso nel Queens: un ultimo saluto al borough visto poche ore prima da Gantry Plaza.",
       "address": "John F. Kennedy International Airport, Queens",
       "lat": 40.6413,
       "lon": -73.7781
@@ -73,11 +87,18 @@
       "note": "Verso Grand Central"
     },
     {
-      "mode": "a piedi",
-      "line": null,
-      "distanceKm": 0.5,
-      "minutes": 7,
-      "note": "Ultimo giro"
+      "mode": "metro",
+      "line": "7 fino a Court Sq-23 St",
+      "distanceKm": 5.5,
+      "minutes": 12,
+      "note": "Verso Long Island City, Queens"
+    },
+    {
+      "mode": "metro",
+      "line": "7 fino a 42 St-Bryant Pk",
+      "distanceKm": 5.5,
+      "minutes": 12,
+      "note": "Ritorno a Manhattan"
     },
     {
       "mode": "a piedi",
