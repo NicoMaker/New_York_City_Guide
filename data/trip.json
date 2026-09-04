@@ -1,9 +1,6 @@
 {
   "badge": "ARRIVO LA NOTTE DI CAPODANNO",
-  "titleLines": [
-    "NEW YORK",
-    "CITY"
-  ],
+  "titleLines": ["NEW YORK", "CITY"],
   "sub": "31 Dicembre 2026 → 5 Gennaio 2027",
   "lead": "6 giorni tra Manhattan, Harlem, Queens e Brooklyn: dal Capodanno appena atterrati fino all'ultimo caffè prima del volo di rientro.",
   "flights": [

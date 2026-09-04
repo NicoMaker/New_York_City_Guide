@@ -1,12 +1,12 @@
 /* timeline */
-.timeline{
+.timeline {
   max-width: var(--content-w);
   margin: 0 auto;
   position: relative;
   padding-left: 28px;
 }
 
-.timeline::before{
+.timeline::before {
   content: "";
   position: absolute;
   left: 5px;
@@ -17,24 +17,27 @@
   opacity: 0.35;
 }
 
-.stop{
+.stop {
   position: relative;
   padding-bottom: 10px;
 }
-.stop:last-child{ padding-bottom: 4px; }
+.stop:last-child {
+  padding-bottom: 4px;
+}
 
-.stop::before{
+.stop::before {
   content: "";
   position: absolute;
   left: -28px;
   top: 5px;
-  width: 12px; height: 12px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--white);
   border: 3px solid var(--line-color, var(--ink));
 }
 
-.stop-head{
+.stop-head {
   display: flex;
   align-items: baseline;
   gap: 12px;
@@ -42,7 +45,7 @@
   padding: 4px 0;
 }
 
-.stop-time{
+.stop-time {
   font-family: var(--font-mono);
   font-size: 12.5px;
   color: var(--line-color, var(--ink));
@@ -50,35 +53,39 @@
   flex-shrink: 0;
 }
 
-.stop-title{
+.stop-title {
   font-size: 17px;
   font-weight: 600;
   color: var(--ink);
   flex: 1;
 }
 
-.stop-toggle{
+.stop-toggle {
   font-size: 13px;
   color: var(--ink-faint);
   flex-shrink: 0;
   transition: transform 0.2s ease;
 }
-.stop.open .stop-toggle{ transform: rotate(45deg); }
+.stop.open .stop-toggle {
+  transform: rotate(45deg);
+}
 
-.stop-body{
+.stop-body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.28s ease;
 }
-.stop.open .stop-body{ max-height: 900px; }
+.stop.open .stop-body {
+  max-height: 900px;
+}
 
-.stop-body-inner{
+.stop-body-inner {
   padding: 6px 0 4px 60px;
   font-size: 14.5px;
   color: var(--ink-soft);
 }
 
-.stop-body-inner .stop-tag{
+.stop-body-inner .stop-tag {
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 11px;
@@ -90,14 +97,14 @@
   margin-bottom: 8px;
 }
 
-.stop-body-inner .stop-addr{
+.stop-body-inner .stop-addr {
   font-family: var(--font-mono);
   font-size: 12.5px;
   color: var(--ink-faint);
   margin-top: 8px;
 }
 
-.stop-body-inner a.map-link{
+.stop-body-inner a.map-link {
   display: inline-block;
   margin-top: 8px;
   margin-right: 14px;
@@ -106,7 +113,7 @@
   color: var(--line-color, var(--ink));
 }
 
-.stop-body-inner .osm-embed{
+.stop-body-inner .osm-embed {
   width: 100%;
   height: 200px;
   border: 1px solid var(--line);
@@ -115,4 +122,8 @@
   filter: grayscale(0.15);
 }
 
-.stop.note .stop-title{ font-style: italic; color: var(--ink-soft); font-weight: 500; }
+.stop.note .stop-title {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-weight: 500;
+}

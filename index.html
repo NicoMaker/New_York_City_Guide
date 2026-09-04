@@ -1,51 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>New York City — Guida di viaggio, 31 Dic 2026 – 5 Gen 2027</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New York City — Guida di viaggio, 31 Dic 2026 – 5 Gen 2027</title>
 
-<link rel="stylesheet" href="css/base/variables.css">
-<link rel="stylesheet" href="css/hero/hero.css">
-<link rel="stylesheet" href="css/nav/nav.css">
-<link rel="stylesheet" href="css/day/day.css">
-<link rel="stylesheet" href="css/gallery/gallery.css">
-<link rel="stylesheet" href="css/timeline/timeline.css">
-<link rel="stylesheet" href="css/transit/transit.css">
-<link rel="stylesheet" href="css/practical/practical.css">
-<link rel="stylesheet" href="css/footer/footer.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/base/variables.css" />
+    <link rel="stylesheet" href="css/hero/hero.css" />
+    <link rel="stylesheet" href="css/nav/nav.css" />
+    <link rel="stylesheet" href="css/day/day.css" />
+    <link rel="stylesheet" href="css/gallery/gallery.css" />
+    <link rel="stylesheet" href="css/timeline/timeline.css" />
+    <link rel="stylesheet" href="css/transit/transit.css" />
+    <link rel="stylesheet" href="css/practical/practical.css" />
+    <link rel="stylesheet" href="css/footer/footer.css" />
+  </head>
+  <body>
+    <!-- ============================= HERO ============================= -->
+    <header class="hero" id="heroSection">
+      <div class="wrap"><p class="skeleton">Caricamento guida…</p></div>
+    </header>
 
-<!-- ============================= HERO ============================= -->
-<header class="hero" id="heroSection">
-  <div class="wrap"><p class="skeleton">Caricamento guida…</p></div>
-</header>
+    <!-- ========================= AT A GLANCE ============================ -->
+    <section class="glance" id="glanceSection"></section>
 
-<!-- ========================= AT A GLANCE ============================ -->
-<section class="glance" id="glanceSection"></section>
+    <!-- ========================= DAY NAV (sticky) ======================== -->
+    <nav class="day-nav">
+      <div class="day-nav-scroll" id="dayNav"></div>
+    </nav>
 
-<!-- ========================= DAY NAV (sticky) ======================== -->
-<nav class="day-nav">
-  <div class="day-nav-scroll" id="dayNav"></div>
-</nav>
+    <!-- ========================= GIORNATE (renderizzate da JS) ========== -->
+    <main id="main"></main>
 
-<!-- ========================= GIORNATE (renderizzate da JS) ========== -->
-<main id="main"></main>
+    <!-- ========================= COME MUOVERSI IN METRO ================= -->
+    <section class="transit-section" id="transitSection"></section>
 
-<!-- ========================= COME MUOVERSI IN METRO ================= -->
-<section class="transit-section" id="transitSection"></section>
+    <!-- ========================= INFO PRATICHE =========================== -->
+    <section class="practical" id="practicalSection"></section>
 
-<!-- ========================= INFO PRATICHE =========================== -->
-<section class="practical" id="practicalSection"></section>
+    <footer>
+      Guida di viaggio personalizzata — ispirata a
+      <a
+        href="https://github.com/NicoMaker/New_York_City_Guide"
+        target="_blank"
+        rel="noopener"
+        >NicoMaker/New_York_City_Guide</a
+      >. Orari e prezzi indicativi: verifica sempre sui siti ufficiali prima di
+      partire.<br />
+      Immagini:
+      <a href="https://commons.wikimedia.org" target="_blank" rel="noopener"
+        >Wikimedia Commons</a
+      >, opere libere da diritti d'autore o con licenza Creative Commons. Mappe:
+      <a
+        href="https://www.openstreetmap.org/copyright"
+        target="_blank"
+        rel="noopener"
+        >© contributori OpenStreetMap</a
+      >.
+    </footer>
 
-<footer>
-  Guida di viaggio personalizzata — ispirata a <a href="https://github.com/NicoMaker/New_York_City_Guide" target="_blank" rel="noopener">NicoMaker/New_York_City_Guide</a>. Orari e prezzi indicativi: verifica sempre sui siti ufficiali prima di partire.<br>
-  Immagini: <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>, opere libere da diritti d'autore o con licenza Creative Commons. Mappe: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© contributori OpenStreetMap</a>.
-</footer>
+    <button class="top-btn" id="topBtn" aria-label="Torna su">↑</button>
 
-<button class="top-btn" id="topBtn" aria-label="Torna su">↑</button>
-
-<script type="module" src="js/main.js"></script>
-</body>
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>

@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------------
    DAY NAVIGATOR (sticky, come un selettore di linea metro)
    -------------------------------------------------------------------- */
-.day-nav{
+.day-nav {
   position: sticky;
   top: 0;
   z-index: 50;
@@ -9,7 +9,7 @@
   border-bottom: 3px solid var(--taxi);
 }
 
-.day-nav-row{
+.day-nav-row {
   display: flex;
   align-items: stretch;
   max-width: var(--content-w);
@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.day-nav-arrow{
+.day-nav-arrow {
   flex: 0 0 auto;
   width: 34px;
   display: flex;
@@ -30,41 +30,57 @@
   font-family: var(--font-mono);
   font-size: 16px;
   opacity: 0.85;
-  transition: opacity 0.15s ease, background 0.15s ease;
+  transition:
+    opacity 0.15s ease,
+    background 0.15s ease;
   z-index: 2;
 }
-.day-nav-arrow:hover{ background: rgba(255,255,255,0.08); opacity: 1; }
-.day-nav-arrow[disabled]{
+.day-nav-arrow:hover {
+  background: rgba(255, 255, 255, 0.08);
+  opacity: 1;
+}
+.day-nav-arrow[disabled] {
   opacity: 0.2;
   cursor: default;
   pointer-events: none;
 }
 /* frecce nascoste su mobile: li' basta lo swipe col dito */
-@media (hover: none) and (pointer: coarse){
-  .day-nav-arrow{ display: none; }
+@media (hover: none) and (pointer: coarse) {
+  .day-nav-arrow {
+    display: none;
+  }
 }
 
-.day-nav-viewport{
+.day-nav-viewport {
   position: relative;
   flex: 1 1 auto;
   min-width: 0;
   overflow: hidden;
 }
 
-.day-nav-fade{
+.day-nav-fade {
   position: absolute;
-  top: 0; bottom: 0;
+  top: 0;
+  bottom: 0;
   width: 22px;
   pointer-events: none;
   z-index: 1;
   opacity: 0;
   transition: opacity 0.2s ease;
 }
-.day-nav-fade.left{ left: 0; background: linear-gradient(90deg, var(--ink), transparent); }
-.day-nav-fade.right{ right: 0; background: linear-gradient(270deg, var(--ink), transparent); }
-.day-nav-fade.visible{ opacity: 1; }
+.day-nav-fade.left {
+  left: 0;
+  background: linear-gradient(90deg, var(--ink), transparent);
+}
+.day-nav-fade.right {
+  right: 0;
+  background: linear-gradient(270deg, var(--ink), transparent);
+}
+.day-nav-fade.visible {
+  opacity: 1;
+}
 
-.day-nav-scroll{
+.day-nav-scroll {
   display: flex;
   overflow-x: auto;
   scrollbar-width: none;
@@ -75,18 +91,20 @@
   touch-action: pan-x;
   user-select: none;
 }
-.day-nav-scroll::-webkit-scrollbar{ display: none; }
-.day-nav-scroll.dragging{
+.day-nav-scroll::-webkit-scrollbar {
+  display: none;
+}
+.day-nav-scroll.dragging {
   cursor: grabbing;
   scroll-behavior: auto;
   scroll-snap-type: none;
 }
 
-.day-nav button{
+.day-nav button {
   flex: 0 0 auto;
   background: transparent;
   border: none;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   font-family: var(--font-mono);
   font-size: 12.5px;
   letter-spacing: 0.03em;
@@ -101,16 +119,23 @@
   white-space: nowrap;
 }
 
-.day-nav button .chip{
-  width: 8px; height: 8px; border-radius: 50%;
+.day-nav button .chip {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
   background: currentColor;
   opacity: 0.5;
 }
 
-.day-nav button.active{
+.day-nav button.active {
   color: var(--white);
   border-bottom-color: var(--taxi);
 }
-.day-nav button.active .chip{ opacity: 1; background: var(--taxi); }
+.day-nav button.active .chip {
+  opacity: 1;
+  background: var(--taxi);
+}
 
-.day-nav button:hover{ color: var(--white); }
+.day-nav button:hover {
+  color: var(--white);
+}

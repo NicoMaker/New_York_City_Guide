@@ -12,23 +12,31 @@ export function renderHero(trip) {
       <p class="sub">${esc(trip.sub)}</p>
       <p class="lead">${esc(trip.lead)}</p>
       <div class="flight-cards">
-        ${trip.flights.map(f => `
+        ${trip.flights
+          .map(
+            (f) => `
           <div class="flight-card">
             <div class="fc-label">${esc(f.label)}</div>
             <div class="fc-route">${esc(f.route)}</div>
             <div class="fc-time">${esc(f.time)}</div>
             <div class="fc-date">${esc(f.date)}</div>
-          </div>`).join("")}
+          </div>`,
+          )
+          .join("")}
       </div>
     </div>`;
 
   const glance = document.getElementById("glanceSection");
   glance.innerHTML = `
     <div class="wrap glance-row">
-      ${trip.glance.map(g => `
+      ${trip.glance
+        .map(
+          (g) => `
         <div class="glance-item">
           <div class="gi-num">${esc(g.num)}</div>
           <div class="gi-label">${esc(g.label)}</div>
-        </div>`).join("")}
+        </div>`,
+        )
+        .join("")}
     </div>`;
 }

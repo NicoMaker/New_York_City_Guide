@@ -2,13 +2,23 @@
 // render-stop.js — una singola tappa della timeline (accordion) e il
 // connettore "come arrivare alla prossima tappa" (distanza/tempo/mezzo).
 // ==========================================================================
-import { esc, googleMapsLink, osmEmbedUrl, osmLink, lineChipsHTML, modeIcon, fmtDistance } from "../core/utils.js";
+import {
+  esc,
+  googleMapsLink,
+  osmEmbedUrl,
+  osmLink,
+  lineChipsHTML,
+  modeIcon,
+  fmtDistance,
+} from "../core/utils.js";
 
 export function renderStop(stop, index, lineColorMap) {
   const mapsUrl = googleMapsLink(stop);
   const hasCoords = stop.lat != null && stop.lon != null;
 
-  const addrHTML = stop.address ? `<p class="stop-addr">${esc(stop.address)}</p>` : "";
+  const addrHTML = stop.address
+    ? `<p class="stop-addr">${esc(stop.address)}</p>`
+    : "";
 
   const linksHTML = `
     ${mapsUrl ? `<a class="map-link" href="${mapsUrl}" target="_blank" rel="noopener">Apri su Google Maps</a>` : ""}
@@ -47,7 +57,7 @@ export function renderStop(stop, index, lineColorMap) {
 export function renderConnector(link, lineColorMap) {
   if (!link) return "";
   const chips = lineChipsHTML(link.line, lineColorMap);
-  const modeLabel = link.line && chips ? "" : (link.line ? esc(link.line) : "");
+  const modeLabel = link.line && chips ? "" : link.line ? esc(link.line) : "";
   return `
     <div class="stop-connector">
       <span class="sc-icon">${modeIcon(link.mode)}</span>

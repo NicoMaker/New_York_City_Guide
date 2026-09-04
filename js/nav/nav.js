@@ -27,21 +27,30 @@ export function renderDayNav(days) {
   const fadeLeft = wrap.querySelector(".day-nav-fade.left");
   const fadeRight = wrap.querySelector(".day-nav-fade.right");
 
-  scroller.innerHTML = days.map(d => `
+  scroller.innerHTML = days
+    .map(
+      (d) => `
     <button data-target="${esc(d.id)}" style="color:${esc(d.color)}">
       <span class="chip"></span>${esc(d.date.split("—")[0].split(",")[0].trim().toUpperCase())} · ${esc(d.title.split(" ")[0].toUpperCase())}
-    </button>`).join("");
+    </button>`,
+    )
+    .join("");
 
   const buttons = [...scroller.querySelectorAll("button")];
-  buttons.forEach(btn => {
+  buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      document.getElementById(btn.dataset.target)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document
+        .getElementById(btn.dataset.target)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
   // ------- frecce: scorrono la barra di uno "schermo" alla volta -------
   function scrollByStep(dir) {
-    scroller.scrollBy({ left: dir * scroller.clientWidth * 0.8, behavior: "smooth" });
+    scroller.scrollBy({
+      left: dir * scroller.clientWidth * 0.8,
+      behavior: "smooth",
+    });
   }
   prevBtn.addEventListener("click", () => scrollByStep(-1));
   nextBtn.addEventListener("click", () => scrollByStep(1));
@@ -60,9 +69,13 @@ export function renderDayNav(days) {
   window.addEventListener("resize", updateEdges);
 
   // ------- drag col mouse (desktop): clicca e trascina la barra -------
-  let isDown = false, dragged = false, startX = 0, startScroll = 0;
+  let isDown = false,
+    dragged = false,
+    startX = 0,
+    startScroll = 0;
   scroller.addEventListener("mousedown", (e) => {
-    isDown = true; dragged = false;
+    isDown = true;
+    dragged = false;
     startX = e.pageX;
     startScroll = scroller.scrollLeft;
     scroller.classList.add("dragging");
@@ -78,15 +91,28 @@ export function renderDayNav(days) {
     scroller.classList.remove("dragging");
   });
   // se e' stato un trascinamento, non far scattare il click sul bottone sottostante
-  scroller.addEventListener("click", (e) => {
-    if (dragged) { e.stopPropagation(); e.preventDefault(); }
-    dragged = false;
-  }, true);
+  scroller.addEventListener(
+    "click",
+    (e) => {
+      if (dragged) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      dragged = false;
+    },
+    true,
+  );
 
   // ------- frecce della tastiera quando la barra e' focus -------
   scroller.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowRight") { scrollByStep(1); e.preventDefault(); }
-    if (e.key === "ArrowLeft") { scrollByStep(-1); e.preventDefault(); }
+    if (e.key === "ArrowRight") {
+      scrollByStep(1);
+      e.preventDefault();
+    }
+    if (e.key === "ArrowLeft") {
+      scrollByStep(-1);
+      e.preventDefault();
+    }
   });
 
   // il touch/swipe col dito su mobile funziona nativamente grazie a
@@ -95,16 +121,28 @@ export function renderDayNav(days) {
   updateEdges();
 
   // scrollspy: evidenzia il bottone della giornata visibile e la scorre in vista
-  const sections = days.map(d => document.getElementById(d.id)).filter(Boolean);
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const activeBtn = buttons.find(b => b.dataset.target === entry.target.id);
-        buttons.forEach(b => b.classList.toggle("active", b === activeBtn));
-        if (activeBtn) activeBtn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-      }
-    });
-  }, { rootMargin: "-40% 0px -55% 0px", threshold: 0 });
+  const sections = days
+    .map((d) => document.getElementById(d.id))
+    .filter(Boolean);
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const activeBtn = buttons.find(
+            (b) => b.dataset.target === entry.target.id,
+          );
+          buttons.forEach((b) => b.classList.toggle("active", b === activeBtn));
+          if (activeBtn)
+            activeBtn.scrollIntoView({
+              behavior: "smooth",
+              inline: "center",
+              block: "nearest",
+            });
+        }
+      });
+    },
+    { rootMargin: "-40% 0px -55% 0px", threshold: 0 },
+  );
 
-  sections.forEach(s => observer.observe(s));
+  sections.forEach((s) => observer.observe(s));
 }

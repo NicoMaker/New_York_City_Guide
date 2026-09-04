@@ -6,14 +6,22 @@ import { esc } from "../core/utils.js";
 export function renderPractical(practical) {
   const el = document.getElementById("practicalSection");
 
-  const cardsHTML = practical.cards.map(c => `
+  const cardsHTML = practical.cards
+    .map(
+      (c) => `
     <div class="info-card">
       <h3>${esc(c.title)}</h3>
       <p>${esc(c.text)}</p>
-    </div>`).join("");
+    </div>`,
+    )
+    .join("");
 
-  const itemsHTML = practical.packing.items.map(label => `
-    <li><span class="box"></span><span class="label">${esc(label)}</span></li>`).join("");
+  const itemsHTML = practical.packing.items
+    .map(
+      (label) => `
+    <li><span class="box"></span><span class="label">${esc(label)}</span></li>`,
+    )
+    .join("");
 
   el.innerHTML = `
     <h2 class="section-title">${esc(practical.title)}</h2>

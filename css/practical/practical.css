@@ -1,12 +1,12 @@
 /* --------------------------------------------------------------------
    PRACTICAL INFO
    -------------------------------------------------------------------- */
-.practical{
+.practical {
   background: var(--white);
   padding: 60px 24px 80px;
 }
 
-.practical h2.section-title{
+.practical h2.section-title {
   font-family: var(--font-display);
   font-size: 40px;
   margin: 0 0 8px;
@@ -14,14 +14,14 @@
   margin-inline: auto;
 }
 
-.practical .section-lead{
+.practical .section-lead {
   max-width: var(--content-w);
   margin: 0 auto 36px;
   color: var(--ink-faint);
   font-size: 15px;
 }
 
-.info-grid{
+.info-grid {
   max-width: var(--content-w);
   margin: 0 auto;
   display: grid;
@@ -31,50 +31,57 @@
   border: 1px solid var(--line);
 }
 
-.info-card{
+.info-card {
   background: var(--white);
   padding: 24px;
 }
 
-.info-card h3{
+.info-card h3 {
   font-family: var(--font-display);
   font-size: 19px;
   letter-spacing: 0.01em;
   margin: 0 0 12px;
 }
 
-.info-card p, .info-card ul{
+.info-card p,
+.info-card ul {
   font-size: 14px;
   color: var(--ink-soft);
   margin: 0;
 }
 
-.info-card ul{ padding-left: 18px; }
-.info-card li{ margin-bottom: 6px; }
+.info-card ul {
+  padding-left: 18px;
+}
+.info-card li {
+  margin-bottom: 6px;
+}
 
-@media (max-width: 640px){
-  .info-grid{ grid-template-columns: 1fr; }
+@media (max-width: 640px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* packing checklist */
-.packing{
+.packing {
   max-width: var(--content-w);
   margin: 40px auto 0;
 }
 
-.packing h3{
+.packing h3 {
   font-family: var(--font-display);
   font-size: 19px;
   margin: 0 0 4px;
 }
 
-.packing .packing-sub{
+.packing .packing-sub {
   font-size: 13px;
   color: var(--ink-faint);
   margin-bottom: 16px;
 }
 
-.packing-progress{
+.packing-progress {
   height: 4px;
   background: var(--paper-2);
   border-radius: 999px;
@@ -82,22 +89,23 @@
   margin-bottom: 18px;
 }
 
-.packing-progress-bar{
+.packing-progress-bar {
   height: 100%;
   width: 0%;
   background: var(--taxi);
   transition: width 0.25s ease;
 }
 
-.packing-list{
+.packing-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4px 24px;
   list-style: none;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.packing-list li{
+.packing-list li {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -108,33 +116,38 @@
   user-select: none;
 }
 
-.packing-list .box{
-  width: 16px; height: 16px;
+.packing-list .box {
+  width: 16px;
+  height: 16px;
   border: 2px solid var(--ink-faint);
   border-radius: 3px;
   flex-shrink: 0;
   position: relative;
 }
 
-.packing-list li.checked .box{
+.packing-list li.checked .box {
   background: var(--ink);
   border-color: var(--ink);
 }
-.packing-list li.checked .box::after{
+.packing-list li.checked .box::after {
   content: "";
   position: absolute;
-  left: 3px; top: 0px;
-  width: 4px; height: 8px;
+  left: 3px;
+  top: 0px;
+  width: 4px;
+  height: 8px;
   border: solid var(--white);
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
 
-.packing-list li.checked span.label{
+.packing-list li.checked span.label {
   color: var(--ink-faint);
   text-decoration: line-through;
 }
 
-@media (max-width: 560px){
-  .packing-list{ grid-template-columns: 1fr; }
+@media (max-width: 560px) {
+  .packing-list {
+    grid-template-columns: 1fr;
+  }
 }

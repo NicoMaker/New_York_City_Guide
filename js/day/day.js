@@ -14,14 +14,20 @@ export function renderDaySection(day, lineColorMap) {
   section.style.setProperty("--line-color", day.color);
 
   const linksByFromIndex = {};
-  (day.links || []).forEach((l, i) => { linksByFromIndex[i] = l; });
+  (day.links || []).forEach((l, i) => {
+    linksByFromIndex[i] = l;
+  });
 
-  const stopsHTML = day.stops.map((stop, i) => {
-    const stopHTML = renderStop(stop, i, lineColorMap);
-    const isLast = i === day.stops.length - 1;
-    const connectorHTML = isLast ? "" : renderConnector(linksByFromIndex[i], lineColorMap);
-    return stopHTML + connectorHTML;
-  }).join("");
+  const stopsHTML = day.stops
+    .map((stop, i) => {
+      const stopHTML = renderStop(stop, i, lineColorMap);
+      const isLast = i === day.stops.length - 1;
+      const connectorHTML = isLast
+        ? ""
+        : renderConnector(linksByFromIndex[i], lineColorMap);
+      return stopHTML + connectorHTML;
+    })
+    .join("");
 
   // Se il giorno è "00", lo trasformiamo in "31"
   const dayNumDisplay = day.num === "00" ? "31" : day.num;

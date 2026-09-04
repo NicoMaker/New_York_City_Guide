@@ -10,7 +10,11 @@ import { renderDaySection } from "./day/day.js";
 import { renderTransitSection } from "./transit/transit.js";
 import { renderPractical } from "./practical/practical.js";
 import { bindGalleryClicks } from "./gallery/gallery.js";
-import { bindStopToggles, bindPackingChecklist, bindTopButton } from "./interactions/interactions.js";
+import {
+  bindStopToggles,
+  bindPackingChecklist,
+  bindTopButton,
+} from "./interactions/interactions.js";
 
 async function init() {
   let data;
@@ -35,7 +39,7 @@ async function init() {
 
   const main = document.getElementById("main");
   main.innerHTML = "";
-  days.forEach(day => {
+  days.forEach((day) => {
     const section = renderDaySection(day, lineColorMap);
     main.appendChild(section);
   });

@@ -12,8 +12,10 @@ export function esc(str) {
 
 /** Link a Google Maps a partire da una query testuale o da lat/lon */
 export function googleMapsLink({ mapQuery, lat, lon }) {
-  if (mapQuery) return `https://maps.google.com/?q=${encodeURIComponent(mapQuery)}`;
-  if (lat != null && lon != null) return `https://maps.google.com/?q=${lat},${lon}`;
+  if (mapQuery)
+    return `https://maps.google.com/?q=${encodeURIComponent(mapQuery)}`;
+  if (lat != null && lon != null)
+    return `https://maps.google.com/?q=${lat},${lon}`;
   return null;
 }
 
@@ -43,12 +45,17 @@ export function buildLineColorMap(transitData) {
 /** Genera l'HTML di una riga di chip circolari colorati per una stringa tipo "A/B/C/D" o "4/5/6" */
 export function lineChipsHTML(lineString, lineColorMap) {
   if (!lineString) return "";
-  const codes = lineString.split(/[\/,\s]+/).filter(Boolean).filter(c => lineColorMap[c]);
+  const codes = lineString
+    .split(/[\/,\s]+/)
+    .filter(Boolean)
+    .filter((c) => lineColorMap[c]);
   if (!codes.length) return "";
-  const chips = codes.map(c => {
-    const color = lineColorMap[c] || "#555";
-    return `<span class="line-chip" style="background:${color}" title="Linea ${esc(c)}">${esc(c)}</span>`;
-  }).join("");
+  const chips = codes
+    .map((c) => {
+      const color = lineColorMap[c] || "#555";
+      return `<span class="line-chip" style="background:${color}" title="Linea ${esc(c)}">${esc(c)}</span>`;
+    })
+    .join("");
   return `<span class="line-chip-row">${chips}</span>`;
 }
 

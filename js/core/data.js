@@ -4,7 +4,8 @@
 
 async function fetchJSON(path) {
   const res = await fetch(path, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Impossibile caricare ${path} (HTTP ${res.status})`);
+  if (!res.ok)
+    throw new Error(`Impossibile caricare ${path} (HTTP ${res.status})`);
   return res.json();
 }
 
@@ -22,7 +23,7 @@ export async function loadAll() {
   ]);
 
   const days = await Promise.all(
-    daysIndex.map(d => fetchJSON(`data/days/${d.id}.json`))
+    daysIndex.map((d) => fetchJSON(`data/days/${d.id}.json`)),
   );
 
   return { trip, transit, practical, days };
