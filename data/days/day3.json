@@ -2,29 +2,33 @@
   "id": "day3",
   "num": "03",
   "color": "#B23A2E",
-  "title": "Harlem & Museo di Storia Naturale",
+  "title": "Harlem & Queens",
   "date": "Domenica 3 Gennaio 2027",
   "banner": {
     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Harlem_-_Apollo_Theater.jpg?width=1200",
     "alt": "Apollo Theater sulla 125th Street a Harlem"
   },
-  "summary": "Mattina a Harlem come richiesto: storia, musica e brunch soul food. Nel primo pomeriggio si attraversa Central Park quasi per intero, da nord a sud, fino a Bethesda Terrace, per poi scendere verso l'Upper West Side e l'American Museum of Natural History.",
+  "summary": "Mattina interamente dedicata a Harlem, come richiesto: storia, musica, arte afroamericana, una domenica di gospel e brunch soul food. Nel pomeriggio si attraversa la città fino al Queens, il borough finora meno esplorato: prima Corona, quartiere di Louis Armstrong, poi il cuore di Flushing Meadows–Corona Park con l'iconico Unisphere e il Queens Museum, per finire con una cena nel centro di Flushing, una delle zone gastronomiche più celebri e autentiche di New York.",
   "stops": [
     {
       "time": "09:00",
       "title": "Arrivo a Harlem — 125th Street",
       "tag": "QUARTIERE",
-      "text": "Prendi la linea A/B/C/D fino a 125 St. La strada è il cuore commerciale e culturale del quartiere.",
+      "text": "Prendi la linea A/B/C/D fino a 125 St. La strada è il cuore commerciale e culturale del quartiere: negozi storici, venditori ambulanti e il viavai della domenica mattina.",
       "address": "125th St, Harlem, Manhattan",
       "lat": 40.8093,
       "lon": -73.9482,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/125th_Street,_Harlem.jpg?width=900",
+        "alt": "La 125th Street ad Harlem"
+      },
       "mapQuery": "125th+Street+Harlem+New+York"
     },
     {
       "time": "09:30",
       "title": "Apollo Theater",
       "tag": "STORIA MUSICALE",
-      "text": "Il teatro leggendario dove hanno debuttato Ella Fitzgerald, James Brown e Michael Jackson (all'Amateur Night). Se organizzato in anticipo, i tour guidati raccontano tutta la storia del luogo.",
+      "text": "Il teatro leggendario dove hanno debuttato Ella Fitzgerald, James Brown e Michael Jackson (all'Amateur Night). Se organizzato in anticipo, i tour guidati raccontano tutta la storia del luogo, dai tempi del vaudeville alla nascita della soul e dell'hip hop.",
       "address": "253 W 125th St, Harlem",
       "lat": 40.8102,
       "lon": -73.95,
@@ -35,80 +39,116 @@
       "mapQuery": "Apollo+Theater+Harlem"
     },
     {
-      "time": "10:30",
-      "title": "Studio Museum in Harlem / passeggiata culturale",
+      "time": "10:15",
+      "title": "Studio Museum in Harlem & Strivers' Row",
       "tag": "ARTE",
-      "text": "Dedicato all'arte afroamericana e della diaspora. Se chiuso o in restauro, cammina lungo Malcolm X Blvd ammirando le brownstone d'epoca.",
+      "text": "Il punto di riferimento per l'arte afroamericana e della diaspora, con mostre di artisti storici e contemporanei. Se chiuso o in restauro, vale comunque una passeggiata lungo Malcolm X Blvd ammirando le brownstone d'epoca, in direzione di Strivers' Row (138th-139th St): due file di eleganti case a schiera di fine Ottocento, tra i complessi residenziali meglio conservati di Harlem.",
       "address": "Malcolm X Blvd, Harlem",
       "lat": 40.8033,
-      "lon": -73.9459
+      "lon": -73.9459,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Studio_Museum_in_Harlem.jpg?width=900",
+        "alt": "Ingresso dello Studio Museum in Harlem"
+      },
+      "mapQuery": "Studio+Museum+in+Harlem"
     },
     {
-      "time": "11:30",
-      "title": "Domenica gospel (facoltativo)",
+      "time": "10:50",
+      "title": "Schomburg Center for Research in Black Culture",
+      "tag": "PUNTO PIÙ IMPORTANTE",
+      "text": "Una delle istituzioni culturali più importanti di Harlem e degli Stati Uniti: sede della New York Public Library dedicata interamente alla ricerca e alla conservazione della cultura nera nel mondo, con oltre 10 milioni di documenti tra manoscritti, fotografie e registrazioni. Ospita anche mostre temporanee aperte gratuitamente al pubblico.",
+      "address": "515 Malcolm X Blvd, Harlem",
+      "lat": 40.8157,
+      "lon": -73.9394,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Schomburg_Center_for_Research_in_Black_Culture.jpg?width=900",
+        "alt": "Lo Schomburg Center for Research in Black Culture ad Harlem"
+      },
+      "mapQuery": "Schomburg+Center+for+Research+in+Black+Culture+Harlem"
+    },
+    {
+      "time": "11:40",
+      "title": "Domenica gospel — Abyssinian Baptist Church",
       "tag": "ESPERIENZA",
-      "text": "Essendo domenica, molte chiese storiche di Harlem accolgono visitatori alle funzioni con coro gospel dal vivo. Vestiti in modo sobrio, arriva con anticipo e mantieni un comportamento rispettoso: è un luogo di culto attivo, non uno spettacolo turistico."
+      "text": "Una delle chiese storiche più importanti di Harlem, fondata nel 1808 e guida della comunità afroamericana per oltre due secoli. La domenica accoglie visitatori alle funzioni con coro gospel dal vivo. Vestiti in modo sobrio, arriva con anticipo e mantieni un comportamento rispettoso: è un luogo di culto attivo, non uno spettacolo turistico.",
+      "address": "132 W 138th St, Harlem",
+      "lat": 40.81667,
+      "lon": -73.94167,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Abyssinian_Baptist_Church.jpg?width=900",
+        "alt": "L'Abyssinian Baptist Church ad Harlem"
+      },
+      "mapQuery": "Abyssinian+Baptist+Church+Harlem"
     },
     {
-      "time": "12:30",
+      "time": "12:45",
       "title": "Brunch soul food da Sylvia's",
       "tag": "CIBO ICONICO",
-      "text": "Storico ristorante soul food di Harlem: pollo fritto, waffle, mac and cheese. La domenica il brunch con musica dal vivo è molto frequentato: arriva presto o mettiti in lista d'attesa.",
+      "text": "Storico ristorante soul food di Harlem, aperto dal 1962: pollo fritto, waffle, mac and cheese. La domenica il brunch con musica dal vivo è molto frequentato: arriva presto o mettiti in lista d'attesa.",
       "address": "328 Malcolm X Blvd, Harlem",
       "lat": 40.8078,
       "lon": -73.9428,
+      "image": {
+        "src": "https://c8.alamy.com/comp/DYE324/sylvias-restaurant-of-harlem-legendary-soul-food-restaurant-at-328-DYE324.jpg",
+        "alt": "L'insegna di Sylvia's Restaurant ad Harlem"
+      },
       "mapQuery": "Sylvia's+Restaurant+Harlem"
     },
     {
-      "time": "14:00",
-      "title": "Central Park — ingresso nord & Reservoir",
-      "tag": "PARCO",
-      "text": "Entra da Central Park North e costeggia il Jacqueline Kennedy Onassis Reservoir: in inverno il parco è quasi spoglio ma molto suggestivo, con lo skyline di Midtown che spunta oltre gli alberi. Da qui inizia una lunga passeggiata verso sud, attraversando praticamente tutto il parco.",
-      "address": "Central Park North, Manhattan",
-      "lat": 40.7969,
-      "lon": -73.9587,
+      "time": "14:50",
+      "title": "Louis Armstrong House Museum",
+      "tag": "PUNTO PIÙ IMPORTANTE",
+      "text": "La casa dove Louis e Lucille Armstrong vissero dal 1943 fino alla morte del musicista nel 1971, oggi museo nel cuore di Corona: gli interni sono conservati esattamente come li avevano lasciati, incluso il celebre giardino giapponese. Un modo intimo per scoprire il Queens più autentico, lontano dai grandi flussi turistici.",
+      "address": "34-56 107th St, Corona, Queens",
+      "lat": 40.7447,
+      "lon": -73.8628,
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Central_Park_reservoir_fence_1.jpg?width=900",
-        "alt": "Il Reservoir di Central Park"
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_Armstrong_House.jpg?width=900",
+        "alt": "La Louis Armstrong House Museum a Corona, Queens"
       },
-      "mapQuery": "Central+Park+North+110th+Street"
+      "mapQuery": "Louis+Armstrong+House+Museum+Corona+Queens"
     },
     {
-      "time": "14:40",
-      "title": "Bethesda Terrace & Bow Bridge",
-      "tag": "ICONA DEL PARCO",
-      "text": "Il cuore scenografico di Central Park: la terrazza con l'Angel of the Waters Fountain, l'arcata piastrellata sotto il ponte carrozzabile e, poco oltre, il romantico Bow Bridge in ghisa sul laghetto. È la parte di Central Park più fotografata e riconoscibile al mondo, comparsa in decine di film.",
-      "address": "Central Park, Bethesda Terrace, Manhattan",
-      "lat": 40.7735,
-      "lon": -73.9701,
+      "time": "16:15",
+      "title": "Unisphere & Flushing Meadows–Corona Park",
+      "tag": "SIMBOLO DEL QUEENS",
+      "text": "Il globo d'acciaio di 43 metri costruito per l'Expo del 1964 è diventato il simbolo non ufficiale del Queens: appare persino nello stemma del borough. Intorno si estende uno dei parchi più grandi della città, con laghi, sentieri e i resti delle due Fiere Mondiali del 1939 e del 1964.",
+      "address": "Flushing Meadows–Corona Park, Queens",
+      "lat": 40.74639,
+      "lon": -73.845,
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bethesda_Terrace,_Central_Park,_New_York.jpg?width=900",
-        "alt": "Bethesda Terrace a Central Park"
+        "src": "https://images.trvl-media.com/place/553248621533117170/e40566fe-643e-4b51-a3f5-eba6dc3b817a.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+        "alt": "L'Unisphere a Flushing Meadows-Corona Park, Queens"
       },
-      "mapQuery": "Bethesda+Terrace+Central+Park"
+      "mapQuery": "Unisphere+Flushing+Meadows+Corona+Park+Queens"
     },
     {
-      "time": "15:30",
-      "title": "American Museum of Natural History",
-      "tag": "DA PRENOTARE",
-      "text": "Uno dei musei di scienze naturali più grandi al mondo: scheletri di dinosauri, la sala degli oceani con la balenottera azzurra, il planetario Hayden. Metti in conto almeno 2 ore, di più se ami i dinosauri.",
-      "address": "200 Central Park West, Manhattan",
-      "lat": 40.7813,
-      "lon": -73.974,
+      "time": "17:00",
+      "title": "Queens Museum",
+      "tag": "DA NON PERDERE",
+      "text": "Ospita il Panorama of the City of New York, un plastico dell'intera città in scala 1:1200 con oltre 895.000 edifici, costruito per la Fiera Mondiale del 1964 e aggiornato regolarmente. Uno dei modi più sorprendenti per capire visivamente le dimensioni reali di New York.",
+      "address": "New York City Building, Flushing Meadows–Corona Park, Queens",
+      "lat": 40.7466,
+      "lon": -73.8458,
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Museum_of_Natural_History_02.jpg?width=900",
-        "alt": "Facciata dell'American Museum of Natural History"
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Queens_Museum.jpg?width=900",
+        "alt": "L'ingresso del Queens Museum a Flushing Meadows"
       },
-      "mapQuery": "American+Museum+of+Natural+History"
+      "mapQuery": "Queens+Museum+Flushing+Meadows"
     },
     {
-      "time": "18:00",
-      "title": "Cena sull'Upper West Side",
+      "time": "18:15",
+      "title": "Cena a Flushing — Golden Mall",
       "tag": "CIBO",
-      "text": "Zona residenziale e tranquilla, ottima per una cena rilassata dopo una giornata piena.",
-      "address": "Upper West Side, Manhattan",
-      "lat": 40.787,
-      "lon": -73.9754
+      "text": "Il centro di Flushing ospita una delle scene gastronomiche asiatiche più autentiche e celebrate degli Stati Uniti, concentrata in food hall come il New World Mall e il Golden Shopping Mall: dumpling, noodle fatti a mano e specialità regionali cinesi difficili da trovare altrove a New York.",
+      "address": "41-28 Main St, Flushing, Queens",
+      "lat": 40.7592,
+      "lon": -73.8306,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Flushing,_Queens.jpg?width=900",
+        "alt": "Le strade del centro di Flushing, Queens"
+      },
+      "mapQuery": "Golden+Shopping+Mall+Flushing+Queens"
     }
   ],
   "links": [
@@ -124,49 +164,56 @@
       "line": null,
       "distanceKm": 0.3,
       "minutes": 4,
-      "note": "Lungo Malcolm X Blvd"
+      "note": "Verso lo Studio Museum, lungo la 125th Street"
     },
     {
       "mode": "a piedi",
       "line": null,
-      "distanceKm": 0.3,
-      "minutes": 4,
-      "note": "Verso la chiesa più vicina"
+      "distanceKm": 1.1,
+      "minutes": 14,
+      "note": "Verso nord lungo Malcolm X Blvd, passando per Strivers' Row"
     },
     {
       "mode": "a piedi",
       "line": null,
       "distanceKm": 0.4,
       "minutes": 5,
-      "note": "Verso Sylvia's"
+      "note": "Verso la chiesa, sulla 138th Street"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 1.3,
+      "minutes": 16,
+      "note": "Verso sud, verso Sylvia's"
     },
     {
       "mode": "metro",
-      "line": "2/3 fino a Central Park North (110 St)",
-      "distanceKm": 3.0,
-      "minutes": 20,
-      "note": "Verso Central Park"
+      "line": "4/5/6 fino a Grand Central, poi 7 fino a 103 St-Corona Plaza",
+      "distanceKm": 15.5,
+      "minutes": 55,
+      "note": "Verso Corona, Queens"
     },
     {
-      "mode": "a piedi",
-      "line": null,
+      "mode": "metro",
+      "line": "7 fino a Mets-Willets Point",
       "distanceKm": 2.4,
-      "minutes": 35,
-      "note": "Attraversando quasi tutto il parco, da nord a Bethesda Terrace"
+      "minutes": 8,
+      "note": "Verso Flushing Meadows-Corona Park"
     },
     {
       "mode": "a piedi",
       "line": null,
-      "distanceKm": 1.1,
-      "minutes": 15,
-      "note": "Da Bethesda Terrace verso l'Upper West Side e il museo"
+      "distanceKm": 0.3,
+      "minutes": 5,
+      "note": "Attraverso il parco, fino al museo"
     },
     {
-      "mode": "a piedi",
-      "line": null,
-      "distanceKm": 0.7,
+      "mode": "metro",
+      "line": "7 fino a Flushing-Main St",
+      "distanceKm": 3.2,
       "minutes": 10,
-      "note": "Verso il ristorante serale"
+      "note": "Verso il centro di Flushing"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "CITY"
   ],
   "sub": "31 Dicembre 2026 → 5 Gennaio 2027",
-  "lead": "6 giorni tra Manhattan, Harlem e Brooklyn: dal Capodanno appena atterrati fino all'ultimo caffè prima del volo di rientro.",
+  "lead": "6 giorni tra Manhattan, Harlem, Queens e Brooklyn: dal Capodanno appena atterrati fino all'ultimo caffè prima del volo di rientro.",
   "flights": [
     {
       "label": "✈ ANDATA — ARRIVO A NEW YORK",
@@ -26,7 +26,7 @@
       "label": "giorni a New York"
     },
     {
-      "num": "5",
+      "num": "6",
       "label": "quartieri esplorati"
     },
     {
