@@ -8,7 +8,7 @@
     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Empire_State_Building.jpg?width=1200",
     "alt": "Empire State Building al tramonto"
   },
-  "summary": "Giornata verticale: due dei belvedere più famosi del mondo, la Quinta Strada e Rockefeller Center. Consiglio: Empire State al mattino presto (meno coda) e Top of the Rock al tramonto — perché da lì vedi l'Empire State illuminato, cosa che dall'Empire State stesso non puoi fare.",
+  "summary": "Giornata verticale: due dei belvedere più famosi del mondo, la Quinta Strada e Rockefeller Center. Consiglio: Empire State al mattino presto (meno coda) e Top of the Rock al tramonto — perché da lì vedi l'Empire State illuminato, cosa che dall'Empire State stesso non puoi fare. In serata, dal molo di Hell's Kitchen si parte per una crociera panoramica sull'Hudson: skyline illuminato, passaggio ravvicinato alla Statua della Libertà e transito sotto il Ponte di Brooklyn, prima di tornare a riva per Times Square by night.",
   "stops": [
     {
       "time": "07:45",
@@ -95,10 +95,24 @@
       "mapQuery": "Top+of+the+Rock"
     },
     {
-      "time": "18:30",
+      "time": "18:00",
+      "title": "Crociera sull'Hudson — Circle Line Landmarks Cruise",
+      "tag": "CROCIERA SERALE",
+      "text": "Da Pier 83, a due passi da Hell's Kitchen, la Landmarks Cruise (circa 90 minuti) scende lungo l'Hudson costeggiando Hudson Yards e One World Trade Center fino ad avvicinarsi a pochi metri dalla Statua della Libertà, illuminata contro lo skyline. Il ritorno passa sotto i ponti di Brooklyn, Manhattan e Williamsburg lungo l'East River, prima di riattraccare al molo. Di sera il giro è più tranquillo e spettacolare grazie alle luci della città; prenota online in anticipo e vestiti a strati, sull'acqua a gennaio il vento è pungente. Bar a bordo per scaldarsi con qualcosa di caldo.",
+      "address": "Pier 83, W 42nd St, Manhattan",
+      "lat": 40.7648,
+      "lon": -74.0021,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Manhattan_from_Circle_Line_Sightseeing_boat,_NYC,_20231001_1048_0927.jpg?width=900",
+        "alt": "Skyline di Manhattan visto da una crociera Circle Line sull'Hudson"
+      },
+      "mapQuery": "Circle+Line+Sightseeing+Cruises+Pier+83"
+    },
+    {
+      "time": "19:30",
       "title": "Times Square by night",
       "tag": "DA VEDERE",
-      "text": "Ora che il grosso della folla di Capodanno si è diradato, è il momento giusto per vederlo senza il caos del 31.",
+      "text": "Dal molo a Times Square sono 15-20 minuti a piedi lungo la 42nd Street. Ora che il grosso della folla di Capodanno si è diradato, è il momento giusto per vederla senza il caos del 31: insegne luminose, folla di sera ma gestibile, l'atmosfera più iconica di Manhattan.",
       "address": "Times Square, Manhattan",
       "lat": 40.758,
       "lon": -73.9855,
@@ -109,7 +123,7 @@
       "mapQuery": "Times+Square+New+York"
     },
     {
-      "time": "19:30",
+      "time": "20:15",
       "title": "Cena a Hell's Kitchen",
       "tag": "CIBO",
       "text": "Zona con altissima densità di ristoranti di ogni tipo e prezzo, a due passi da Times Square.",
@@ -162,11 +176,18 @@
       "note": "Ingresso Top of the Rock"
     },
     {
+      "mode": "taxi",
+      "line": "M42 bus o taxi",
+      "distanceKm": 1.9,
+      "minutes": 18,
+      "note": "Verso l'imbarco della crociera, Pier 83 (W 42nd St)"
+    },
+    {
       "mode": "a piedi",
       "line": null,
-      "distanceKm": 0.9,
-      "minutes": 12,
-      "note": "Verso Times Square"
+      "distanceKm": 1.6,
+      "minutes": 20,
+      "note": "Dal molo verso Times Square"
     },
     {
       "mode": "a piedi",
