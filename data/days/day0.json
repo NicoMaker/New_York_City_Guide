@@ -2,7 +2,7 @@
   "id": "day0",
   "num": "00",
   "color": "#F2B705",
-  "title": "Arrivo & Capodanno a Times Square",
+  "title": "Arrivo & Capodanno a Times Square 🇺🇸",
   "date": "Giovedì 31 Dicembre 2026",
   "banner": {
     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_Square_at_Night_%287823232238%29.jpg?width=1200",
@@ -36,7 +36,7 @@
     {
       "time": "18:30",
       "title": "Times Square: raggiungere il perimetro della Ball",
-      "tag": "CAPODANNO",
+      "tag": "🇺🇸 CAPODANNO",
       "text": "I recinti più vicini al palco (43a-47a strada) sono ormai chiusi a quest'ora, ma la polizia continua ad aprire nuovi settori più a nord e sull'Avenue of the Americas man mano che si liberano posti: mettiti in coda a uno dei varchi di ingresso e sii paziente, ci vorranno controlli di sicurezza. Da qualunque punto dell'area transennata la sfera di cristallo e i maxischermi si vedono comunque bene. Se i varchi risultano già saturi, in alternativa puoi restare sul perimetro esterno lungo Broadway o la 7th Avenue, tra la folla che segue l'evento dai marciapiedi liberi.",
       "address": "Times Square, Manhattan",
       "lat": 40.758,
@@ -67,7 +67,7 @@
     {
       "time": "00:00",
       "title": "🇺🇸 Mezzanotte: la Ball scende su Times Square",
-      "tag": "CAPODANNO",
+      "tag": "🇺🇸 CAPODANNO",
       "text": "La celebre sfera di cristallo scende lungo l'asta per 60 secondi tra coriandoli e fuochi d'artificio: è il momento clou dell'intero viaggio. Dopo il countdown l'uscita dall'area è lenta e ordinata — la polizia rilascia la folla a ondate per evitare ressa, quindi mettici pazienza e segui le indicazioni degli agenti per tornare verso l'hotel.",
       "address": "Times Square, Manhattan",
       "lat": 40.758,

@@ -33,7 +33,7 @@ export function renderTransitSection(transit) {
     .join("");
 
   el.innerHTML = `
-    <h2 class="section-title">Come muoversi in metro</h2>
+    <h2 class="section-title">Come muoversi in metro 🇺🇸</h2>
     <p class="section-lead">${esc(transit.intro)}</p>
     <div class="transit-fare-box"><strong>Tariffe:</strong> ${esc(transit.fare)}</div>
     <div class="transit-lines">${linesHTML}</div>
