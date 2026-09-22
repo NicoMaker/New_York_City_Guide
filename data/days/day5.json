@@ -75,7 +75,11 @@
       "time": "20:00",
       "title": "Decollo — si torna a casa",
       "tag": "FINE VIAGGIO",
-      "text": "Sei giorni, cinque quartieri, un Capodanno diverso dal solito. Buon rientro."
+      "text": "Sei giorni, cinque quartieri, un Capodanno diverso dal solito. Buon rientro.",
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/2022_JetBlue_Terminal_5_JFK_Airport_1.jpg?width=900",
+        "alt": "Terminal dell'aeroporto JFK pronto per il volo di rientro"
+      }
     }
   ],
   "links": [

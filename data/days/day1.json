@@ -42,10 +42,6 @@
       "address": "Ellis Island",
       "lat": 40.6993,
       "lon": -74.0413,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ellis_Island_2.jpg?width=900",
-        "alt": "Edificio principale di Ellis Island"
-      },
       "mapQuery": "Ellis+Island"
     },
     {
@@ -64,10 +60,6 @@
       "address": "180 Greenwich St, Manhattan",
       "lat": 40.7115,
       "lon": -74.0134,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/9-11_Memorial_South_Pool.jpg?width=900",
-        "alt": "Vasca memoriale del 9/11 Memorial"
-      },
       "mapQuery": "9/11+Memorial+Museum+New+York"
     },
     {
@@ -78,10 +70,6 @@
       "address": "Westfield World Trade Center, Manhattan",
       "lat": 40.7115,
       "lon": -74.0099,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Oculus_interior_2016.jpg?width=900",
-        "alt": "Interno dell'Oculus al World Trade Center"
-      },
       "mapQuery": "Oculus+World+Trade+Center"
     },
     {
@@ -92,10 +80,6 @@
       "address": "Wall St, Financial District, Manhattan",
       "lat": 40.7069,
       "lon": -74.0107,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Charging_Bull_ny.jpg?width=900",
-        "alt": "Charging Bull su Wall Street"
-      },
       "mapQuery": "Wall+Street+Charging+Bull+New+York"
     },
     {

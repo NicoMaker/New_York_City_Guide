@@ -12,7 +12,7 @@
   "stops": [
     {
       "time": "14:40",
-      "title": "Atterraggio a JFK",
+      "title": "Atterraggio a JFK 🇺🇸",
       "tag": "LOGISTICA",
       "text": "Metti in conto 45-60 minuti tra controlli e ritiro bagagli. Per il trasferimento in città: AirTrain + subway (~11$, 60-75 min) oppure taxi a tariffa fissa (52$ + pedaggi e mancia verso Manhattan, ~45-60 min senza traffico). La sera di Capodanno il traffico può essere pesante: se puoi, scegli il treno, ed evita di trascinare i bagagli fino a Times Square — passa prima in hotel.",
       "address": "John F. Kennedy International Airport, Queens",
@@ -66,13 +66,17 @@
     },
     {
       "time": "00:00",
-      "title": "Mezzanotte: la Ball scende su Times Square",
+      "title": "🇺🇸 Mezzanotte: la Ball scende su Times Square",
       "tag": "CAPODANNO",
       "text": "La celebre sfera di cristallo scende lungo l'asta per 60 secondi tra coriandoli e fuochi d'artificio: è il momento clou dell'intero viaggio. Dopo il countdown l'uscita dall'area è lenta e ordinata — la polizia rilascia la folla a ondate per evitare ressa, quindi mettici pazienza e segui le indicazioni degli agenti per tornare verso l'hotel.",
       "address": "Times Square, Manhattan",
-      "lat": 40.7580,
+      "lat": 40.758,
       "lon": -73.9855,
-      "mapQuery": "Times+Square+New+York"
+      "mapQuery": "Times+Square+New+York",
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_Square_ball.jpg?width=900",
+        "alt": "La sfera di cristallo di Times Square che scende a mezzanotte"
+      }
     }
   ],
   "links": [

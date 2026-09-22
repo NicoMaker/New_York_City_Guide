@@ -18,10 +18,6 @@
       "address": "Madison Square Park, 23rd St & 5th Ave, Manhattan",
       "lat": 40.742,
       "lon": -73.9878,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Flatiron_Building_Madison_Square_Park.jpg?width=900",
-        "alt": "Flatiron Building visto da Madison Square Park"
-      },
       "mapQuery": "Madison+Square+Park+New+York"
     },
     {
@@ -46,10 +42,6 @@
       "address": "5th Ave, Manhattan",
       "lat": 40.7532,
       "lon": -73.9822,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Public_Library_Lions.jpg?width=900",
-        "alt": "Leone di pietra davanti alla New York Public Library"
-      },
       "mapQuery": "New+York+Public+Library+5th+Avenue"
     },
     {
@@ -102,10 +94,6 @@
       "address": "Pier 83, W 42nd St, Manhattan",
       "lat": 40.7648,
       "lon": -74.0021,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Manhattan_from_Circle_Line_Sightseeing_boat,_NYC,_20231001_1048_0927.jpg?width=900",
-        "alt": "Skyline di Manhattan visto da una crociera Circle Line sull'Hudson"
-      },
       "mapQuery": "Circle+Line+Sightseeing+Cruises+Pier+83"
     },
     {

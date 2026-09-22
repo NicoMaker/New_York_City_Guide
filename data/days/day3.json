@@ -18,10 +18,6 @@
       "address": "125th St, Harlem, Manhattan",
       "lat": 40.8093,
       "lon": -73.9482,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/125th_Street,_Harlem.jpg?width=900",
-        "alt": "La 125th Street ad Harlem"
-      },
       "mapQuery": "125th+Street+Harlem+New+York"
     },
     {
@@ -46,10 +42,6 @@
       "address": "Malcolm X Blvd, Harlem",
       "lat": 40.8033,
       "lon": -73.9459,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Studio_Museum_in_Harlem.jpg?width=900",
-        "alt": "Ingresso dello Studio Museum in Harlem"
-      },
       "mapQuery": "Studio+Museum+in+Harlem"
     },
     {
@@ -60,10 +52,6 @@
       "address": "515 Malcolm X Blvd, Harlem",
       "lat": 40.8157,
       "lon": -73.9394,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Schomburg_Center_for_Research_in_Black_Culture.jpg?width=900",
-        "alt": "Lo Schomburg Center for Research in Black Culture ad Harlem"
-      },
       "mapQuery": "Schomburg+Center+for+Research+in+Black+Culture+Harlem"
     },
     {
@@ -74,10 +62,6 @@
       "address": "132 W 138th St, Harlem",
       "lat": 40.81667,
       "lon": -73.94167,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Abyssinian_Baptist_Church.jpg?width=900",
-        "alt": "L'Abyssinian Baptist Church ad Harlem"
-      },
       "mapQuery": "Abyssinian+Baptist+Church+Harlem"
     },
     {
@@ -102,10 +86,6 @@
       "address": "34-56 107th St, Corona, Queens",
       "lat": 40.7447,
       "lon": -73.8628,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_Armstrong_House.jpg?width=900",
-        "alt": "La Louis Armstrong House Museum a Corona, Queens"
-      },
       "mapQuery": "Louis+Armstrong+House+Museum+Corona+Queens"
     },
     {
@@ -130,10 +110,6 @@
       "address": "New York City Building, Flushing Meadows–Corona Park, Queens",
       "lat": 40.7466,
       "lon": -73.8458,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Queens_Museum.jpg?width=900",
-        "alt": "L'ingresso del Queens Museum a Flushing Meadows"
-      },
       "mapQuery": "Queens+Museum+Flushing+Meadows"
     },
     {
@@ -144,10 +120,6 @@
       "address": "41-28 Main St, Flushing, Queens",
       "lat": 40.7592,
       "lon": -73.8306,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Flushing,_Queens.jpg?width=900",
-        "alt": "Le strade del centro di Flushing, Queens"
-      },
       "mapQuery": "Golden+Shopping+Mall+Flushing+Queens"
     }
   ],

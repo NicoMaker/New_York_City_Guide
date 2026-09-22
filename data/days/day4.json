@@ -32,10 +32,6 @@
       "address": "75 9th Ave, Manhattan",
       "lat": 40.7424,
       "lon": -74.0061,
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Chelsea_Market_entrance.jpg?width=900",
-        "alt": "Ingresso di Chelsea Market"
-      },
       "mapQuery": "Chelsea+Market"
     },
     {
