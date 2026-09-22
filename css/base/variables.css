@@ -20,6 +20,20 @@
   --violet: #6b4e9e;
   --teal: #1f7a6c;
 
+  --old-glory-red: #b22234;
+  --old-glory-blue: #3c3b6e;
+  --airmail-stripe: repeating-linear-gradient(
+    -45deg,
+    var(--old-glory-red) 0px,
+    var(--old-glory-red) 10px,
+    var(--white) 10px,
+    var(--white) 20px,
+    var(--old-glory-blue) 20px,
+    var(--old-glory-blue) 30px,
+    var(--white) 30px,
+    var(--white) 40px
+  );
+
   --radius-s: 6px;
   --radius-m: 12px;
   --radius-l: 20px;
@@ -81,6 +95,17 @@ a {
   max-width: var(--content-w);
   margin: 0 auto;
   padding: 0 24px;
+}
+
+/* --------------------------------------------------------------------
+   OLD GLORY BAR — sottile striscia rosso/blu in stile busta "airmail"
+   d'epoca, in cima alla pagina: un tocco americano coerente col tema
+   del viaggio, senza invadere il resto del design.
+   -------------------------------------------------------------------- */
+.old-glory-bar {
+  height: 5px;
+  background: var(--airmail-stripe);
+  background-size: 56px 5px;
 }
 
 .skeleton {

@@ -49,10 +49,21 @@
 }
 
 .hero-badge .dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
+  width: 8px;
+  height: 8px;
   background: var(--taxi);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
 }
 
 .hero h1 {
@@ -88,11 +99,21 @@
   overflow: hidden;
   max-width: 620px;
   box-shadow: var(--shadow-m);
+  position: relative;
+}
+
+.flight-cards::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: var(--airmail-stripe);
+  background-size: 40px 4px;
 }
 
 .flight-card {
   background: #1a2432;
-  padding: 20px 22px;
+  padding: 24px 22px 20px;
   transition: background 0.3s var(--ease);
 }
 .flight-card:hover {
