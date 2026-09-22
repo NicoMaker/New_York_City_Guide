@@ -35,7 +35,8 @@ export function renderStop(stop, index, lineColorMap) {
 
   const noteClass = stop.tag === "ATTENZIONE ORARI" ? " note" : "";
   const midnightClass = stop.time === "00:00" ? " is-midnight" : "";
-  const tagClass = stop.tag && stop.tag.includes("CAPODANNO") ? " tag-capodanno" : "";
+  const tagClass =
+    stop.tag && stop.tag.includes("CAPODANNO") ? " tag-capodanno" : "";
 
   return `
     <div class="stop${noteClass}${midnightClass}" data-index="${index}">
