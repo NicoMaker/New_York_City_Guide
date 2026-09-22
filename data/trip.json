@@ -1,8 +1,11 @@
 {
-  "badge": "ARRIVO LA NOTTE DI CAPODANNO",
-  "titleLines": ["NEW YORK", "CITY"],
+  "badge": "COUNTDOWN A TIMES SQUARE",
+  "titleLines": [
+    "NEW YORK",
+    "CITY"
+  ],
   "sub": "31 Dicembre 2026 → 5 Gennaio 2027",
-  "lead": "6 giorni tra Manhattan, Harlem, Queens e Brooklyn: dal Capodanno appena atterrati fino all'ultimo caffè prima del volo di rientro.",
+  "lead": "6 giorni tra Manhattan, Harlem, Queens e Brooklyn: si atterra il 31 dicembre e si va dritti verso Times Square per il countdown di mezzanotte, fino all'ultimo caffè prima del volo di rientro.",
   "flights": [
     {
       "label": "✈ ANDATA — ARRIVO A NEW YORK",
@@ -32,7 +35,7 @@
     },
     {
       "num": "01",
-      "label": "notte di Capodanno inclusa"
+      "label": "countdown a Times Square"
     }
   ]
 }

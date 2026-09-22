@@ -2,19 +2,19 @@
   "id": "day0",
   "num": "00",
   "color": "#F2B705",
-  "title": "Arrivo & Capodanno",
+  "title": "Arrivo & Capodanno a Times Square",
   "date": "Giovedì 31 Dicembre 2026",
   "banner": {
     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_Square_at_Night_%287823232238%29.jpg?width=1200",
     "alt": "Times Square illuminata di notte"
   },
-  "summary": "Atterri nel giorno più affollato dell'anno a New York. Niente panico: con l'orario di arrivo non hai modo (né bisogno) di infilarti nei recinti di Times Square, che chiudono nel primo pomeriggio. Meglio un Capodanno più semplice e vivibile dopo un volo lungo.",
+  "summary": "Atterri nel giorno più affollato dell'anno a New York, ma il countdown di Times Square resta il piatto forte della serata. I recinti ufficiali intorno alla Ball si riempiono dal primo pomeriggio e chi arriva dopo le 15:00 non entra più in quelli centrali: la strategia è raggiungere il perimetro esterno in prima serata, dove si vede comunque la sfera e l'atmosfera è la stessa, senza le 8+ ore di attesa al freddo dei recinti più vicini al palco.",
   "stops": [
     {
       "time": "14:40",
       "title": "Atterraggio a JFK",
       "tag": "LOGISTICA",
-      "text": "Metti in conto 45-60 minuti tra controlli e ritiro bagagli. Per il trasferimento in città: AirTrain + subway (~11$, 60-75 min) oppure taxi a tariffa fissa (52$ + pedaggi e mancia verso Manhattan, ~45-60 min senza traffico). La sera di Capodanno il traffico può essere pesante: se puoi, scegli il treno.",
+      "text": "Metti in conto 45-60 minuti tra controlli e ritiro bagagli. Per il trasferimento in città: AirTrain + subway (~11$, 60-75 min) oppure taxi a tariffa fissa (52$ + pedaggi e mancia verso Manhattan, ~45-60 min senza traffico). La sera di Capodanno il traffico può essere pesante: se puoi, scegli il treno, ed evita di trascinare i bagagli fino a Times Square — passa prima in hotel.",
       "address": "John F. Kennedy International Airport, Queens",
       "lat": 40.6413,
       "lon": -73.7781,
@@ -25,29 +25,54 @@
       "mapQuery": "JFK+Airport+New+York"
     },
     {
-      "time": "16:30",
-      "title": "Check-in in hotel e primo respiro",
+      "time": "16:15",
+      "title": "Check-in in hotel e cambio rapido",
       "tag": "RIPOSO",
-      "text": "Lascia i bagagli, cambiati e concediti una doccia. Con il jet lag e una città in modalità Capodanno, non forzare il programma: questo primo pomeriggio serve a ricaricare le pile.",
+      "text": "Lascia i bagagli, cambiati e vestiti a strati: le ore in strada a Times Square si passano quasi sempre sotto zero e senza possibilità di rientrare in hotel. Porta guanti, berretto, scaldamani e scarpe comode — niente zaini grandi né ombrelli, non sono ammessi nell'area transennata.",
       "address": "Hotel a Midtown Manhattan",
       "lat": 40.7549,
       "lon": -73.984
     },
     {
+      "time": "18:30",
+      "title": "Times Square: raggiungere il perimetro della Ball",
+      "tag": "CAPODANNO",
+      "text": "I recinti più vicini al palco (43a-47a strada) sono ormai chiusi a quest'ora, ma la polizia continua ad aprire nuovi settori più a nord e sull'Avenue of the Americas man mano che si liberano posti: mettiti in coda a uno dei varchi di ingresso e sii paziente, ci vorranno controlli di sicurezza. Da qualunque punto dell'area transennata la sfera di cristallo e i maxischermi si vedono comunque bene. Se i varchi risultano già saturi, in alternativa puoi restare sul perimetro esterno lungo Broadway o la 7th Avenue, tra la folla che segue l'evento dai marciapiedi liberi.",
+      "address": "Times Square, Manhattan",
+      "lat": 40.758,
+      "lon": -73.9855,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_Square_New_Year%27s_Eve_2014_crowd.jpg?width=900",
+        "alt": "Folla a Times Square la notte di Capodanno"
+      },
+      "mapQuery": "Times+Square+New+York"
+    },
+    {
       "time": "19:00",
-      "title": "Cena di Capodanno vicino all'hotel",
+      "title": "Cena veloce da asporto prima di entrare nei recinti",
       "tag": "CIBO",
-      "text": "La sera del 31 molti ristoranti richiedono un menù fisso prenotato con giorni di anticipo. Se non hai prenotato, punta su una pizzeria classica o un diner: sono meno soggetti a menù speciali e restano aperti fino a tardi."
+      "text": "Una volta dentro un recinto non si può più uscire né rientrare fino a mezzanotte passata, e non ci sono bagni: mangia qualcosa di semplice prima di entrare (pizza al trancio, bagel, hot dog di strada) e usa il bagno di un locale nei dintorni. Porta con te solo acqua e snack in tasca.",
+      "address": "Dintorni di Times Square, Manhattan"
     },
     {
       "time": "23:00",
-      "title": "Mezzanotte: Central Park invece di Times Square",
+      "title": "L'attesa nel recinto: musica e conto alla rovescia",
       "tag": "CONSIGLIO",
-      "text": "I recinti ufficiali di Times Square chiudono l'accesso già dal primo pomeriggio e richiedono ore di attesa al freddo senza bagno né possibilità di uscire: sconsigliato se atterri lo stesso giorno. Alternativa più semplice: passeggia verso Columbus Circle o l'angolo sud di Central Park, dove si sente comunque l'energia della città e i fuochi d'artificio sono visibili in lontananza. Oppure, più comodo, un rooftop bar vicino all'hotel. Se preferisci restare tranquilli: guardare il countdown in TV/hotel è un'ottima opzione dopo un volo intercontinentale.",
-      "address": "Columbus Circle, Manhattan",
-      "lat": 40.7681,
-      "lon": -73.9819,
-      "mapQuery": "Columbus+Circle+New+York"
+      "text": "Nell'ultima ora prima di mezzanotte i maxischermi trasmettono musica dal vivo e interviste in attesa del countdown: è il momento più freddo e affollato, ma anche il più scenografico. Se il freddo o la folla diventano un problema, ricorda che l'esperienza \"da fuori\" resta comunque valida: alcuni bar e rooftop con vista sulla piazza (prenotabili solo con largo anticipo) permettono di vedere la Ball scendere al caldo.",
+      "address": "Times Square, Manhattan",
+      "lat": 40.758,
+      "lon": -73.9855,
+      "mapQuery": "Times+Square+New+York"
+    },
+    {
+      "time": "00:00",
+      "title": "Mezzanotte: la Ball scende su Times Square",
+      "tag": "CAPODANNO",
+      "text": "La celebre sfera di cristallo scende lungo l'asta per 60 secondi tra coriandoli e fuochi d'artificio: è il momento clou dell'intero viaggio. Dopo il countdown l'uscita dall'area è lenta e ordinata — la polizia rilascia la folla a ondate per evitare ressa, quindi mettici pazienza e segui le indicazioni degli agenti per tornare verso l'hotel.",
+      "address": "Times Square, Manhattan",
+      "lat": 40.7580,
+      "lon": -73.9855,
+      "mapQuery": "Times+Square+New+York"
     }
   ],
   "links": [
@@ -61,16 +86,30 @@
     {
       "mode": "a piedi",
       "line": null,
-      "distanceKm": 0.4,
-      "minutes": 6,
-      "note": "Vicino all'hotel"
+      "distanceKm": 1.4,
+      "minutes": 18,
+      "note": "Dall'hotel a Midtown verso Times Square"
     },
     {
       "mode": "a piedi",
       "line": null,
-      "distanceKm": 1.2,
-      "minutes": 15,
-      "note": "Verso Columbus Circle / Central Park"
+      "distanceKm": 0.2,
+      "minutes": 5,
+      "note": "Cibo da asporto nei dintorni della piazza"
+    },
+    {
+      "mode": "in coda",
+      "line": null,
+      "distanceKm": 0,
+      "minutes": 240,
+      "note": "Attesa nel recinto fino al countdown"
+    },
+    {
+      "mode": "a piedi",
+      "line": null,
+      "distanceKm": 0,
+      "minutes": 0,
+      "note": "Mezzanotte: scende la Ball"
     }
   ]
 }

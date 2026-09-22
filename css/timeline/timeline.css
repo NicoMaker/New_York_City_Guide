@@ -127,3 +127,40 @@
   color: var(--ink-soft);
   font-weight: 500;
 }
+
+/* --------------------------------------------------------------------
+   TAPPA CAPODANNO — evidenzia le tappe di Times Square (tag "CAPODANNO")
+   con un bagliore dorato, senza rompere lo stile della timeline.
+   -------------------------------------------------------------------- */
+.stop-body-inner .stop-tag.tag-capodanno {
+  color: var(--taxi-ink);
+  background: linear-gradient(120deg, var(--taxi), #ffd75e);
+  box-shadow: 0 0 0 1px rgba(242, 183, 5, 0.5);
+}
+
+.stop.is-midnight::before {
+  background: var(--taxi);
+  border-color: var(--taxi);
+  box-shadow: 0 0 0 4px rgba(242, 183, 5, 0.25);
+  animation: ballDropPulse 2.4s var(--ease) infinite;
+}
+
+.stop.is-midnight .stop-title {
+  color: var(--taxi-ink);
+}
+
+@keyframes ballDropPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 4px rgba(242, 183, 5, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(242, 183, 5, 0.12);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.is-midnight::before {
+    animation: none;
+  }
+}
